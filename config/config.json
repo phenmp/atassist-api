@@ -1,0 +1,38 @@
+{
+    "assets_url": "https://cb-live.synapse-games.com/assets/", 
+    "api_url": "https://cb-live.synapse-games.com/api.php?message=",
+    "message_keys": {
+        "init": "init",
+        "rankings": "getRankings",
+        "war_status": "getGuildWarStatus",
+        "index": "ranking_index",
+        "rank_id": "event_guild_war"
+    },
+    "index_guild": 50000,
+    "index_left": 0,
+    "index_right": 1,
+    "xml_files": [
+        "cards.xml",
+        "cards_mythic.xml",
+        "cards_finalform.xml",
+        "combos.xml",
+        "missions.xml"
+    ],
+    "init_data_file": "init.json",
+    "paths": {
+        "stills_path": "deck/card_stills/",
+        "frames_path": "deck/card_frames/",
+        "save_path": "deck_images/",
+        "cache_path": "cache/"
+    },
+    "cards": 0,
+    "mythics": 1,
+    "power_combos": 2,
+    "combos": 3,
+    "missions": 4,
+    "font": "the_font.ttf",
+    "image_quality": 100,
+    "cache_enabled": 1,
+    "onload_xml_update": 0,
+    "adventure_map": ""
+}
