@@ -41,6 +41,6 @@ class Configuration(object):
 class Paths(object):
     def __init__(self, paths):
         self.stillsPath = paths["stills_path"]
-        self.framessPath = paths["frames_path"]
+        self.framesPath = paths["frames_path"]
         self.savePath = paths["save_path"]
         self.cachePath = paths["cache_path"]

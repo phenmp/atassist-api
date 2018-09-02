@@ -4,6 +4,11 @@ __pycache__/
 *$py.class
 .vscode
 
+resources/cache/*.png
+resources/deck_images/*
+resources/dump_files/*
+resources/init_files/*
+
 # C extensions
 *.so
 

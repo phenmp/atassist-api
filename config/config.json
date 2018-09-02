@@ -20,10 +20,10 @@
     ],
     "init_data_file": "init.json",
     "paths": {
-        "stills_path": "deck/card_stills/",
-        "frames_path": "deck/card_frames/",
-        "save_path": "deck_images/",
-        "cache_path": "cache/"
+        "stills_path": "resources/deck/card_stills/",
+        "frames_path": "resources/deck/card_frames/",
+        "save_path": "resources/deck_images/",
+        "cache_path": "resources/cache/"
     },
     "cards": 0,
     "mythics": 1,

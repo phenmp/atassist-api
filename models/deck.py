@@ -2,16 +2,17 @@ from texttable import Texttable
 
 from controllers.game_api import GameApi
 from models.card import Card
+from configuration import Configuration
 
 from utils.files import getUserLastDumpFilePath, writeToCsvFile
 
-class DeckController(object):
-    def __init__(self, config):
-        self.config = config
+class Deck(object):
+    def __init__(self):
+        self.config = Configuration() 
         self.cards = []
         self.name  = ""
         self.combos  = []
-        self.api = GameApi(config)
+        self.api = GameApi(self.config)
 
     def updateAsMyDeck(self, context):
         if (context.update):
@@ -133,3 +134,28 @@ class DeckController(object):
         writeToCsvFile(context.userId, header, rows)
 
         return deck_output
+
+    def updateAsInventory(self, context):
+        self.cards = []
+
+        if(context.update):
+            json = self.api.updateAndGetInitFile(context)
+        else:
+            json = self.api.getInit(context)
+
+        cardMap = json['user_units']
+        self.name = json['user_data']['name'] + "_inventory"
+
+        print('[Deck] inventory for ', self.name)
+
+        for card in cardMap:
+            cardToAdd = Card()
+            cardToAdd.id    = int( cardMap[card]['unit_id'] )
+            cardToAdd.level = int( cardMap[card]['level'])
+            print('[Deck] Adding card - id: {0}, level: {1}'.format(cardToAdd.id, cardToAdd.level))
+            self.cards.append(cardToAdd)
+
+        self.updateDeckFromXML()
+
+        print('[Deck] update as inventory - returning')
+        return self.cards
