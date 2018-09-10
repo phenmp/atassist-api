@@ -30,7 +30,7 @@
     "power_combos": 2,
     "combos": 3,
     "missions": 4,
-    "font": "the_font.ttf",
+    "font": "resources/fonts/the_font.ttf",
     "image_quality": 100,
     "cache_enabled": 1,
     "onload_xml_update": 0,

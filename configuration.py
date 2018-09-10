@@ -1,4 +1,6 @@
 import json
+import os
+
 
 class Configuration(object):
     def __init__(self):
@@ -6,11 +8,11 @@ class Configuration(object):
         self.assetsUrl = self.__config["assets_url"]
         self.apiUrl = self.__config["api_url"]
 
-        self.initMessageKey  = self.__config["message_keys"]["init"]
-        self.rankingsMessageKey  = self.__config["message_keys"]["rankings"]
-        self.warStatusMessageKey  = self.__config["message_keys"]["war_status"]
-        self.indexMessageKey  = self.__config["message_keys"]["index"]
-        self.rankIdMessageKey  = self.__config["message_keys"]["rank_id"]
+        self.initMessageKey = self.__config["message_keys"]["init"]
+        self.rankingsMessageKey = self.__config["message_keys"]["rankings"]
+        self.warStatusMessageKey = self.__config["message_keys"]["war_status"]
+        self.indexMessageKey = self.__config["message_keys"]["index"]
+        self.rankIdMessageKey = self.__config["message_keys"]["rank_id"]
 
         self.indexGuild = self.__config["index_guild"]
         self.indexLeft = self.__config["index_left"]
@@ -32,6 +34,8 @@ class Configuration(object):
         self.cacheEnabled = self.__config["cache_enabled"]
         self.updateXmlOnLoad = self.__config["onload_xml_update"]
         self.adventureIsland = self.__config["adventure_map"]
+
+        self.stills = os.listdir(self.paths.stillsPath)
 
     def __loadConfig(self):
         with open('config/config.json', 'r') as f:

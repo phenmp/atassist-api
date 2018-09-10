@@ -16,4 +16,4 @@ class BaseContext(object):
 
         self.userId = content["user_id"]
         self.password = content["password"]
-        
+        self.update = content.get("update", 0)

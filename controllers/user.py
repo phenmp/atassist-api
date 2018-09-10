@@ -1,5 +1,6 @@
 from flask_restful import Resource, reqparse
 
+
 class User(Resource):
     users = [
         {
@@ -36,7 +37,7 @@ class User(Resource):
                 return "user with name {} already exists".format(name), 400
 
         user = {
-            "name": name, 
+            "name": name,
             "age": args["age"],
             "occupation": args["occupation"]
         }
@@ -45,5 +46,5 @@ class User(Resource):
 
     def delete(self, name):
         global users
-        users = [ user for user in self.users if user["name"] == name ]
+        users = [user for user in self.users if user["name"] == name]
         return "{} has been deleted".format(name), 200
