@@ -4,45 +4,10 @@ from PIL import Image, ImageFont, ImageDraw
 from configuration import Configuration
 from utils.files import getFullPath
 
+import constants
+
 
 class CardBasic:
-    # Constants
-    CARD_TYPES = ["Mythic", "Char", "Item", "PC", "Combo"]
-    CARD_SHOW = ["Family Guy", "American Dad", "Bob's Burgers", "King of the Hill", "Futurama", "No Show"]
-    CARD_SHOW_ABBREVIATION = ["FG", "AD", "BB", "KH", "FT", "Generic"]
-    RARITY = ["common", "rare", "epic", "legendary", "mythic", "Giggity"]
-    MYTHIC = 0
-    CHAR = 1
-    ITEM = 2
-    PC = 3
-    COMBO = 4
-    GIGGITY = 5
-    FG, AD, BB, KH, FT, GE = 0, 1, 2, 3, 4, 5
-    CARD_SKILLS = {
-        "invigorate": "boost",
-        "strike": "punch",
-        "barrierall": "shieldall",
-        "poison": 'gas',
-        "outlast": "recover",
-        "counter": "payback",
-        "barrier": "shield",
-        "armored": "sturdy",
-        "rallyall": "cheerall",
-        "rally": "cheer",
-        "berserk": "crazed",
-        "weakenall": "crippleall",
-        "weaken": "cripple",
-        "shrapnel": "bomb",
-        "inspire": "motivate",
-        "pierce": "jab"
-    }
-    CHARACTERS = [
-        "Amy", "Bender", "Bill", "Bob", "Bobby", "Boomhauer", "Brian", "Bullock", "Chris", "Chris Griffin", "Dale",
-        "Dr. Amy Wong", "Dr. Zoidberg", "Eugene Belcher", "Francine", "Fry", "Gene", "Hank", "Hank Hill", "Hayley",
-        "Hermes", "Klaus", "Klaus Heisler", "Leela", "Linda", "Linda Belcher", "Lois", "Louise", "Luanne", "Meg",
-        "Mort", "Peggy", "Peter", "Philip J. Fry", "Professor Farnsworth", "Quagmire", "Roger", "Stan", "Stewie",
-        "Steve", "Steve Smith", "Teddy", "Tina"]
-
     config = Configuration()
     stills = os.listdir(config.paths.stillsPath)
 
@@ -64,18 +29,18 @@ class CardBasic:
         self.image = None
 
     def interpretType(self):
-        return self.CARD_TYPES[self.type]
+        return constants.CARD_TYPES[self.type]
 
     def interpretSkill(self, skill):
-        if skill in self.CARD_SKILLS:
-            return self.CARD_SKILLS[skill]
+        if skill in constants.CARD_SKILLS:
+            return constants.CARD_SKILLS[skill]
 
         return skill
 
     def getSkillString(self):
         result = ""
 
-        for skill in self.CARD_SKILLS:
+        for skill in constants.CARD_SKILLS:
             result += str(skill[0]) + ": "
             result += str(skill[1])
 
@@ -90,17 +55,17 @@ class CardBasic:
 
     def updateCardType(self):
         if self.id > 1000000:
-            self.type = self.MYTHIC
+            self.type = constants.MYTHIC
         elif self.id >= 100000:
             if self.id == 100000 or self.id == 100001 or self.id == 100002:
-                self.type = self.GIGGITY
+                self.type = constants.GIGGITY
             else:
-                self.type = self.PC
+                self.type = constants.PC
         else:
             if self.isCharacter():
-                self.type = self.CHAR
+                self.type = constants.CHAR
             else:
-                self.type = self.ITEM
+                self.type = constants.ITEM
 
     def updateWithXML(self, element):
         self.name = element.find('name').text
@@ -133,7 +98,7 @@ class CardBasic:
         self.show = int(show - 1)
 
     def isCharacter(self):
-        if self.name in self.CHARACTERS:
+        if self.name in constants.CHARACTERS:
             return 1
         else:
             return 0
@@ -150,7 +115,7 @@ class CardBasic:
         if self.id > 1000000:
             picture += "Mythic"
 
-        picture = self.CARD_SHOW_ABBREVIATION[self.show] + "_" + picture + ".png"
+        picture = constants.CARD_SHOW_ABBREVIATION[self.show] + "_" + picture + ".png"
         still = "ATback.png"
 
         for index in range(len(self.stills)):
@@ -163,15 +128,15 @@ class CardBasic:
         frame_name = ""
 
         # Giggitywatts
-        if self.type == self.GIGGITY:
+        if self.type == constants.GIGGITY:
             if self.rarity == 1:
                 frame_name = "WattsCommon.png"
             elif self.rarity == 2:
                 frame_name = "WattsRare.png"
             elif self.rarity == 3:
                 frame_name = "WattsEpic.png"
-        elif self.type == self.COMBO:
-            frame_name += self.RARITY[self.rarity - 1]
+        elif self.type == constants.COMBO:
+            frame_name += constants.RARITY[self.rarity - 1]
             frame_name += "1combo"
 
             if len(self.trait) == 0:
@@ -194,18 +159,18 @@ class CardBasic:
             else:
                 fused = '1'
 
-            frame_name += self.RARITY[self.rarity - 1]
+            frame_name += constants.RARITY[self.rarity - 1]
             frame_name += fused
 
-            if self.type == self.COMBO:
+            if self.type == constants.COMBO:
                 frame_name += "combo"
-            self.level_up = self.RARITY[self.rarity - 1] + "up"
+            self.level_up = constants.RARITY[self.rarity - 1] + "up"
 
             if skill_count and len(self.trait) == 0:
                 frame_name += "notrait" + str(skill_count)
             elif skill_count and len(self.trait) > 0:
                 frame_name += "trait" + str(skill_count)
-            elif not (skill_count) and len(self.trait) > 0:
+            elif not skill_count and len(self.trait) > 0:
                 frame_name += "trait"
 
             frame_name += ".png"
@@ -214,7 +179,7 @@ class CardBasic:
 
     def createCardImage(self):
         # If giggity just set image to giggity frame and exit
-        if self.type == self.GIGGITY:
+        if self.type == constants.GIGGITY:
             frame = Image.open(getFullPath(self.config.paths.stillsPath, self.frame))
             self.image = frame.resize((253, 354))
             return
@@ -274,7 +239,7 @@ class CardBasic:
         off = 45
         for i in range(len(self.trait)):
             trait_img = Image.open("resources/deck/traits/icon_small_" + self.trait[i] + ".png")
-            start = (frame_width - (45), 60 + off * i)
+            start = (frame_width - 45, 60 + off * i)
             self.addImage(frame, trait_img, start, .5)
 
         level = self.level
@@ -286,7 +251,7 @@ class CardBasic:
         level = self.level
         m = self.rarity + 2
 
-        if self.type != self.COMBO:
+        if self.type != constants.COMBO:
             while level > m:
                 level -= m
             for i in range(1, level + 1):
@@ -299,7 +264,7 @@ class CardBasic:
                 self.addImage(frame, level_img, start, 1)
 
             # If precombo, then draw little arrows
-            if self.type == self.PC:
+            if self.type == constants.PC:
                 pc = Image.open("resources/deck/card_frames/rsz_pc.png")
                 self.addImage(frame, pc, (0, 0), 1)
 
@@ -323,7 +288,7 @@ class CardBasic:
         self.drawText(draw, start, sizes[size][0], text)
 
         # Draw top left level number
-        if self.type != self.COMBO:
+        if self.type != constants.COMBO:
             self.drawText(draw, (27, 10), 48, str(level), left=1, drop=2)
 
         # Draw skill values

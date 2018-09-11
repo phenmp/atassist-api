@@ -1,13 +1,19 @@
 from flask import Blueprint, request, jsonify
 
+from configuration import Configuration
 from controllers.game_api import GameApi
 from models.deck import Deck
+
+import constants
 
 from contexts.deck_context import DeckContext
 from contexts.inventory_filter_context import InventoryFilterContext
 
 api = Blueprint("api", __name__)
 
+configuration = Configuration()
+
+apiController = GameApi(configuration)
 deckController = Deck()
 
 
@@ -63,6 +69,20 @@ def filter_inventory_by_trait():
 
     return filepath
 
-# @api.route('/api/deck/filter-inventory-show', methods=['POST'])
+# 5. Filter Inventory by Show
+@api.route('/api/deck/filter-inventory-show', methods=['POST'])
+def filter_inventory_by_show():
+    context = InventoryFilterContext(request)
+    apiController.updateInitFile(context)
+
+    showUppercase = context.show.upper()
+
+    if context.show.upper() in constants.CARD_SHOW_ABBREVIATION:
+        showIndex = constants.CARD_SHOW_ABBREVIATION.index(showUppercase)
+        deckController.updateAsInventory(context)
+        deckController.filterShow(showIndex)
+        return deckController.createLargeDeckImage("", 10)
+    else:
+        return 'invalid show'
 
 # @api.route('/api/deck/analysis', methods=['POST'])

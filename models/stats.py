@@ -1,5 +1,7 @@
 from texttable import Texttable
 
+import constants
+
 from configuration import Configuration
 from controllers import GameApi
 from models.card_basic import CardBasic
@@ -7,12 +9,6 @@ from models.card_set import CardSet
 
 
 class Stats:
-    CATEGORIES = ["Character", "Item", "Precombo", "Combo"]
-    CHAR = 0
-    ITEM = 1
-    PC = 2
-    COMBO = 3
-
     def __init__(self, name="", deck=None):
         self.configuration = Configuration()
         self.api = GameApi(self.configuration)
@@ -47,11 +43,11 @@ class Stats:
         self.pc = []
 
         for i in range(len(deck.cards)):
-            if deck.cards[i].type == CardBasic.CHAR or deck.cards[i].type == CardBasic.MYTHIC:
+            if deck.cards[i].type == constants.CHAR or deck.cards[i].type == constants.MYTHIC:
                 self.chars.append(deck.cards[i])
-            elif deck.cards[i].type == CardBasic.ITEM:
+            elif deck.cards[i].type == constants.ITEM:
                 self.items.append(deck.cards[i])
-            elif deck.cards[i].type == CardBasic.PC:
+            elif deck.cards[i].type == constants.PC:
                 self.pc.append(deck.cards[i])
 
         self.chars.sort(key=lambda x: x.name)
@@ -86,49 +82,50 @@ class Stats:
         for i in range(len(self.combos)):
             self.tallyItem(self.unique_combos, self.combos[i].name, self.combo_count[i], 0, 1)
 
-        blanks = len(self.CATEGORIES)
+        blanks = len(constants.CATEGORIES)
 
         # Tally up shows
         for k in range(len(self.chars)):
-            self.tallyItem(self.show_stats, CardBasic.show_types[self.chars[k].show], 1, self.CHAR, blanks)
+            self.tallyItem(self.show_stats, constants.CARD_SHOW[self.chars[k].show], 1, constants.CHAR, blanks)
 
         for k in range(len(self.items)):
-            self.tallyItem(self.show_stats, CardBasic.show_types[self.items[k].show], 1, self.ITEM, blanks)
+            self.tallyItem(self.show_stats, constants.CARD_SHOW[self.items[k].show], 1, constants.ITEM, blanks)
 
         for k in range(len(self.pc)):
-            self.tallyItem(self.show_stats, CardBasic.show_types[self.pc[k].show], 1, self.PC, blanks)
+            self.tallyItem(self.show_stats, constants.CARD_SHOW[self.pc[k].show], 1, constants.PC, blanks)
 
         for k in range(len(self.combos)):
-            self.tallyItem(self.show_stats, CardBasic.show_types[self.combos[k].show], self.combo_count[k], self.COMBO,
-                           blanks)
+            self.tallyItem(self.show_stats, constants.CARD_SHOW[self.combos[k].show], self.combo_count[k],
+                           constants.COMBO, blanks)
 
         # Tally up Traits
         for k in range(len(self.chars)):
             for t in range(len(self.chars[k].trait)):
-                self.tallyItem(self.trait_stats, self.chars[k].trait[t], 1, self.CHAR, blanks)
+                self.tallyItem(self.trait_stats, self.chars[k].trait[t], 1, constants.CHAR, blanks)
         for k in range(len(self.items)):
             for t in range(len(self.items[k].trait)):
-                self.tallyItem(self.trait_stats, self.items[k].trait[t], 1, self.ITEM, blanks)
+                self.tallyItem(self.trait_stats, self.items[k].trait[t], 1, constants.ITEM, blanks)
         for k in range(len(self.pc)):
             for t in range(len(self.pc[k].trait)):
-                self.tallyItem(self.trait_stats, self.pc[k].trait[t], 1, self.PC, blanks)
+                self.tallyItem(self.trait_stats, self.pc[k].trait[t], 1, constants.PC, blanks)
         for k in range(len(self.combos)):
             for t in range(len(self.combos[k].trait)):
-                self.tallyItem(self.trait_stats, self.combos[k].trait[t], self.combo_count[k], self.COMBO, blanks)
+                self.tallyItem(self.trait_stats, self.combos[k].trait[t], self.combo_count[k], constants.COMBO, blanks)
 
         # Tally up Skills
         for k in range(len(self.chars)):
             for s in range(len(self.chars[k].skills)):
-                self.tallyItem(self.skill_stats, self.chars[k].skills[s][0], 1, self.CHAR, blanks)
+                self.tallyItem(self.skill_stats, self.chars[k].skills[s][0], 1, constants.CHAR, blanks)
         for k in range(len(self.items)):
             for s in range(len(self.items[k].skills)):
-                self.tallyItem(self.skill_stats, self.items[k].skills[s][0], 1, self.ITEM, blanks)
+                self.tallyItem(self.skill_stats, self.items[k].skills[s][0], 1, constants.ITEM, blanks)
         for k in range(len(self.pc)):
             for s in range(len(self.pc[k].skills)):
-                self.tallyItem(self.skill_stats, self.pc[k].skills[s][0], 1, self.PC, blanks)
+                self.tallyItem(self.skill_stats, self.pc[k].skills[s][0], 1, constants.PC, blanks)
         for k in range(len(self.combos)):
             for s in range(len(self.combos[k].skills)):
-                self.tallyItem(self.skill_stats, self.combos[k].skills[s][0], self.combo_count[k], self.COMBO, blanks)
+                self.tallyItem(self.skill_stats, self.combos[k].skills[s][0], self.combo_count[k], constants.COMBO,
+                               blanks)
 
     def getSuggestions(self):
         card_set = CardSet()
@@ -201,8 +198,8 @@ class Stats:
         self.unique_combos.sort(key=lambda x: -x[1])
         header = []
 
-        for i in range(len(self.CATEGORIES)):
-            header.append(self.CATEGORIES[i])
+        for i in range(len(constants.CATEGORIES)):
+            header.append(constants.CATEGORIES[i])
 
         header.insert(0, "")
         row_widths = [20, 10, 10, 10, 10]

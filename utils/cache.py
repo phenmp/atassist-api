@@ -1,6 +1,8 @@
 import os
 from PIL import Image
 
+import constants
+
 from configuration import Configuration
 from utils.files import getFullPath
 
@@ -35,7 +37,7 @@ class Cache:
             self.updateFileList()
 
     def getNameFromCard(self, card):
-        if card.type == CardBasic.COMBO:
+        if card.type == constants.COMBO:
             # TODO hash these for better efficiency
             name = str(card.id) + str(card.char.id) + str(card.item.id) + str(card.char.health) + str(
                 card.char.attack) + str(card.item.health) + str(card.item.attack)

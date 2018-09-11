@@ -1,10 +1,12 @@
-from models.card_basic import CardBasic
 import math
+
+import constants
+from models.card_basic import CardBasic
 
 
 class Combo(CardBasic):
     def __init__(self, char=None, item=None, combo_id=0):
-        CardBasic.__init__(self, combo_id, Combo.COMBO)
+        CardBasic.__init__(self, combo_id, constants.COMBO)
         self.char = char
         self.item = item
         self.attack_multiplier = 0.0
@@ -14,7 +16,7 @@ class Combo(CardBasic):
     def updateWithXML(self, element):
         CardBasic.updateWithXML(self, element)
 
-        self.type = self.COMBO
+        self.type = constants.COMBO
         self.attack_multiplier = float(element.find('attack_multiplier').text)
         self.health_multiplier = float(element.find('health_multiplier').text)
 

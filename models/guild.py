@@ -1,34 +1,30 @@
 import time
-
 from texttable import Texttable
+
+import constants
 
 from configuration import Configuration
 from controllers import GameApi
 
 
 class Guild(object):
-    WARSTART = 1501783200  # August 3rd, 6PM GMT
-    WARCOUNT = 12  # Start of 12th rumble
-    WARPERIOD = 1814400  # Three weeks
-    WARDURATION = 518400  # Six days
-
     def __init__(self):
         self.configuration = Configuration()
         self.api = GameApi(self.configuration)
 
-        self.current_war = self.WARCOUNT
+        self.current_war = constants.WARCOUNT
         self.rumble = False
         curr_time = time.time()
-        curr_war = self.WARCOUNT
-        start = self.WARSTART
-        end = start + self.WARDURATION
+        curr_war = constants.WARCOUNT
+        start = constants.WARSTART
+        end = start + constants.WARDURATION
 
         while not self.rumble and end < curr_time:
-            if curr_time >= start and curr_time <= end:
+            if start <= curr_time <= end:
                 self.rumble = True
             else:
-                start += self.WARPERIOD
-                end = start + self.WARDURATION
+                start += constants.WARPERIOD
+                end = start + constants.WARDURATION
                 curr_war += 1
 
         self.current_war = curr_war
@@ -138,9 +134,9 @@ class Guild(object):
         print('900+   : {0} vs {1}'.format(overnine[0], overnine[1]))
         print('500-   : {0} vs {1}'.format(lessfive[0], lessfive[1]))
 
-        if (total[0] > total[1]):
+        if total[0] > total[1]:
             print('Winning by {0}'.format(total[0] - total[1]))
-        elif (total[1] > total[0]):
+        elif total[1] > total[0]:
             print('Losing by {0}'.format(total[1] - total[0]))
         else:
             print('Tied!')

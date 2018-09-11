@@ -1,5 +1,7 @@
 from utils.files import getFullPath
 
+import constants
+
 from models.card_basic import CardBasic
 from models.deck import Deck
 from models.combo import Combo
@@ -225,12 +227,12 @@ class CardSet(object):
         row_count = 0
 
         while col_count < len(combo_deck.cards) and \
-                (combo_deck.cards[col_count].type == CardBasic.CHAR or
-                 combo_deck.cards[col_count].type == CardBasic.MYTHIC):
+                (combo_deck.cards[col_count].type == constants.CHAR or
+                 combo_deck.cards[col_count].type == constants.MYTHIC):
             col_count += 1
 
         while col_count + row_count < len(combo_deck.cards) and \
-                combo_deck.cards[row_count + col_count].type == CardBasic.ITEM:
+                combo_deck.cards[row_count + col_count].type == constants.ITEM:
             row_count += 1
 
         col_count += 1
@@ -239,13 +241,13 @@ class CardSet(object):
 
         m = 1
         while m - 1 < len(combo_deck.cards) and \
-                (combo_deck.cards[m - 1].type == CardBasic.CHAR or
-                 combo_deck.cards[m - 1].type == CardBasic.MYTHIC):
+                (combo_deck.cards[m - 1].type == constants.CHAR or
+                 combo_deck.cards[m - 1].type == constants.MYTHIC):
             arr[0][m] = combo_deck.cards[m - 1].name
             m += 1
 
         i = 1
-        while (i + m - 2) < len(combo_deck.cards) and combo_deck.cards[i + m - 2].type == CardBasic.ITEM:
+        while (i + m - 2) < len(combo_deck.cards) and combo_deck.cards[i + m - 2].type == constants.ITEM:
             arr[i][0] = combo_deck.cards[i + m - 2].name
             i += 1
 
@@ -437,7 +439,7 @@ class CardSet(object):
             if card_id > 1000000:
                 picture += "Mythic"
 
-            picture = CardBasic.show_abbr[show] + "_" + picture + ".png"
+            picture = constants.CARD_SHOW[show] + "_" + picture + ".png"
             success = 0
             for i in range(len(self.config.stills)):
                 if self.config.stills[i].lower() == picture.lower():

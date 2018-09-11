@@ -2,11 +2,13 @@ import time
 from texttable import Texttable
 from PIL import Image
 
+import constants
+from configuration import Configuration
+
 from controllers.game_api import GameApi
 from models.card import Card
-from configuration import Configuration
-from utils.cache import Cache
 
+from utils.cache import Cache
 from utils.files import writeToCsvFile, getFullPath
 
 
@@ -277,14 +279,14 @@ class Deck(object):
             else:
                 index += 1
 
-        self.name += "_" + Card.show_types[show]
+        self.name += "_" + constants.CARD_SHOW[show]
 
     def filterChar(self):
         index = 0
 
         while index < len(self.cards):
 
-            if not (self.cards[index].type == Card.CHAR or self.cards[index].type == Card.MYTHIC):
+            if not (self.cards[index].type == constants.CHAR or self.cards[index].type == constants.MYTHIC):
                 del self.cards[index]
             else:
                 index += 1
@@ -296,7 +298,7 @@ class Deck(object):
 
         while index < len(self.cards):
 
-            if self.cards[index].type != Card.ITEM:
+            if self.cards[index].type != constants.ITEM:
                 del self.cards[index]
             else:
                 index += 1
@@ -308,7 +310,7 @@ class Deck(object):
 
         while index < len(self.cards):
 
-            if self.cards[index].type != Card.PC:
+            if self.cards[index].type != constants.PC:
                 del self.cards[index]
             else:
                 index += 1
