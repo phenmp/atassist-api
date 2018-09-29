@@ -7,6 +7,7 @@ from configuration import Configuration
 
 from controllers.game_api import GameApi
 from models.card import Card
+from models.combo import Combo
 
 from utils.cache import Cache
 from utils.files import writeToCsvFile, getFullPath
@@ -14,12 +15,13 @@ from utils.files import writeToCsvFile, getFullPath
 
 class Deck(object):
     def __init__(self):
-        self.config = Configuration()
+        config = Configuration()
         self.cache = Cache()
         self.cards = []
         self.name = ""
         self.combos = []
         self.api = GameApi(self.config)
+        self.savePath = config.paths.savePath
 
     def updateAsMyDeck(self, context):
         if context.update:
@@ -162,7 +164,7 @@ class Deck(object):
         card_map = json['user_units']
         self.name = json['user_data']['name'] + "_inventory"
 
-        print('[Deck] inventory for ', self.name)
+        # print('[Deck] inventory for ', self.name)
 
         for card in card_map:
             card_to_add = Card()
@@ -203,8 +205,13 @@ class Deck(object):
 
     def drawAllCards(self, cards):
         for index in range(0, len(cards)):
-            print('Creating images... {0}%'.format(float(int(float(index) / float(len(cards)) * 10000)) / 100))
+            # print('Creating images... {0}%'.format(float(int(float(index) / float(len(cards)) * 10000)) / 100))
             cache = self.cache.getCardFromCache(cards[index])
+
+            # if cards[index].frame is None or cards[index].frame == '':
+            #     print("Card {0} at index {1} has no frame. Removing cards from set".format(cards[index].id, index))
+            #     del cards[index]
+            #     continue
 
             if cache is None:
                 cards[index].createCardImage()
@@ -242,7 +249,7 @@ class Deck(object):
         c_count = 0
 
         for index in range(len(cards)):
-            print('Compiling images... {0}%'.format(float(int(float(index) / float(len(cards)) * 10000)) / 100))
+            # print('Compiling images... {0}%'.format(float(int(float(index) / float(len(cards)) * 10000)) / 100))
             master.paste(cards[index].image, (img_width * c_count, img_height * r_count))
             c_count += 1
 
@@ -326,7 +333,6 @@ class Deck(object):
         self.cards.sort(key=lambda x: (-x.rarity, x.type, x.name, -x.level))
         start_time = time.time()
 
-        self.drawAllCards(self.combos)
         self.drawAllCards(cardset)
         end_time = time.time()
         print('Created images in {0}'.format(end_time - start_time))
@@ -339,3 +345,66 @@ class Deck(object):
             master.save(filename, quality=quality)
 
         return filename
+
+    def findCombos(self):
+        chars = []
+        items = []
+        combo_xml = self.api.getCombos()
+
+        for i in range(len(self.cards)):
+            if self.cards[i].type == Card.CHAR or self.cards[i].type == Card.MYTHIC:
+                chars.append(self.cards[i])
+            elif self.cards[i].type == Card.ITEM:
+                items.append(self.cards[i])
+
+        chars.sort(key=lambda x: x.name)
+        items.sort(key=lambda x: x.name)
+
+        # Search combo xml for all available combos
+        for c in combo_xml:
+            for k in range(len(chars)):
+                if k - 1 >= 0 and chars[k - 1].id == chars[k].id:
+                    continue
+
+                for i in range(len(items)):
+                    if i - 1 >= 0 and items[i - 1].id == items[i].id:
+                        continue
+
+                    cmb = c.find('cards')
+
+                    if cmb.get('card1') == '' or cmb.get('card2') == '':
+                        continue
+
+                    if int(cmb.get('card1')) == chars[k].id and int(cmb.get('card2')) == items[i].id:
+                        combo_id = int(c.find('card_id').text)
+                        new_combo = Combo(chars[k], items[i], combo_id)
+                        self.combos.append(new_combo)
+
+        self.combos.sort(key=lambda x: x.char.name)
+        self.updateCombosFromXML()
+
+    def updateAsEnemyDeck(self, context):
+        if (context.update):
+            json = self.api.updateAndGetInitFile(context)
+        else:
+            json = self.api.getInit(context)
+
+        if not ('active_battle_data' in json):
+            return 0
+
+        if str(json['active_battle_data']['host_is_attacker']).lower() == 'true':
+            # indices will be below 100
+            lower = 101
+            upper = 135
+        else:
+            # indices will be above 100
+            lower = 1
+            upper = 35
+
+        resp = json['active_battle_data']['card_map']
+
+        self.name = json['active_battle_data']['enemy_name']
+        self.getDeckFromCardMap(resp, lower, upper)
+        self.updateDeckFromXML()
+
+        return 1

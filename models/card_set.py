@@ -13,8 +13,11 @@ from configuration import Configuration
 
 class CardSet(object):
     def __init__(self):
-        self.config = Configuration()
-        self.api = GameApi(self.config)
+        config = Configuration()
+        self.api = GameApi(config)
+
+        self.savePath = config.paths.savePath
+        self.stills = config.stills
 
     # returns list of ids for cards that match constraints
     def searchXML(self, xml_files="", musthave=[], mustnothave=[]):
@@ -107,7 +110,7 @@ class CardSet(object):
         input_cards, input_path = self.createImageFromList("{0}_turd_pack".format(bge), [input_cards])
         pc, pc_path = self.createImageFromList("{0}_pc".format(bge), [bge_pc])
 
-        print("Deck image saved as {0}".format(input_path))
+        # print("Deck image saved as {0}".format(input_path))
 
         input_cards.printDeck()
 
@@ -163,9 +166,9 @@ class CardSet(object):
         input_cards, input_path = self.createImageFromList(bge + "_input_cards", [input_cards])
         pc, pc_path = self.createImageFromList(bge + "_pc", [bge_pc])
 
-        print("Deck image saved as {0}".format(combo_path))
-        print("Deck image saved as {0}".format(input_path))
-        print("Deck image saved as {0}".format(pc_path))
+        # print("Deck image saved as {0}".format(combo_path))
+        # print("Deck image saved as {0}".format(input_path))
+        # print("Deck image saved as {0}".format(pc_path))
 
         combo_deck.printCombosToTerminal()
         input_cards.printDeckToTerminal()
@@ -213,7 +216,7 @@ class CardSet(object):
                     combo_deck.combos.append(new_combo)
 
         if len(combo_deck.combos) <= 0:
-            print("No combos found for {0}".format(bge))
+            # print("No combos found for {0}".format(bge))
             return
 
         combo_deck.updateDeckFromXML()
@@ -266,7 +269,7 @@ class CardSet(object):
 
         # Write combos to file
 
-        target = open(getFullPath(self.config.paths.savePath, "{0}_combos_table.csv".format(bge)), 'w')
+        target = open(getFullPath(self.savePath, "{0}_combos_table.csv".format(bge)), 'w')
         target.truncate()
 
         for i in range(len(arr)):
@@ -275,7 +278,7 @@ class CardSet(object):
             target.write("\n")
         target.close()
 
-        target = open(getFullPath(self.config.paths.savePath, "{0}_combos_list.csv".format(bge)), 'w')
+        target = open(getFullPath(self.savePath, "{0}_combos_list.csv".format(bge)), 'w')
         target.truncate()
 
         for i in range(len(combo_deck.combos)):
@@ -284,16 +287,13 @@ class CardSet(object):
                 combo_deck.combos[i].name + "\", \n")
         target.close()
 
-        print("Saved spreadsheet to {0}".format(self.config.paths.savePath + bge + "_combos_table.csv"))
-        print("Saved spreadsheet to {0}".format(self.config.paths.savePath + bge + "_combos_list.csv"))
-
     def getBasicSet(self):
         cards = self.api.getCards()
         set_one = bas_leg = self.searchXML(xml_files=[cards], musthave=[('set', '1')])
         deck, filepath = self.createImageFromList("Basic Set", [set_one], 10)
 
         if filepath is not None:
-            print("Deck image saved as {0}".format(filepath))
+            # print("Deck image saved as {0}".format(filepath))
             deck.printDeckToTerminal()
 
     def countCombos(self):
@@ -313,8 +313,8 @@ class CardSet(object):
             else:
                 i += 1
 
-        print("Total combos in game: {0}".format(count))
-        print("Total unique combos in game: {0}".format(i))
+        # print("Total combos in game: {0}".format(count))
+        # print("Total unique combos in game: {0}".format(i))
 
     def countCards(self):
         cards = self.api.getCards()
@@ -340,8 +340,8 @@ class CardSet(object):
             else:
                 i += 1
 
-        print("Total cards in game: {0}".format(count))
-        print("Total unique cards in game: {0}".format(i))
+        # print("Total cards in game: {0}".format(count))
+        # print("Total unique cards in game: {0}".format(i))
 
     def createImageFromList(self, name="default", card_ids=[], width=5):
         full_list = []
@@ -377,13 +377,13 @@ class CardSet(object):
             if int(the_card.get(card1)) == chars[0].id:
                 items.append(the_card.get(card2))
 
-        print("Items to test")
-        print(items)
+        # print("Items to test")
+        # print(items)
 
         # check if list of items is compatible with other characters, if no, delete
         for i in range(1, len(chars)):
-            print('Looking for {0} that mix with your {1}... {2}%'.format(check, against, float(
-                int(float(i) / float(len(chars)) * 10000)) / 100))
+            # print('Looking for {0} that mix with your {1}... {2}%'.format(check, against, float(
+            #     int(float(i) / float(len(chars)) * 10000)) / 100))
             j = 0
             while j < len(items):
                 success = 0
@@ -441,8 +441,8 @@ class CardSet(object):
 
             picture = constants.CARD_SHOW[show] + "_" + picture + ".png"
             success = 0
-            for i in range(len(self.config.stills)):
-                if self.config.stills[i].lower() == picture.lower():
+            for i in range(len(self.stills)):
+                if self.stills[i].lower() == picture.lower():
                     success = 1
                     break
 
@@ -456,5 +456,5 @@ class CardSet(object):
             holder.append([skill.find('name').text, int(skill.find('power').text)])
 
         holder.sort(key=lambda x: x[1])
-        for i in range(len(holder)):
-            print('Skill: {0},\tPower: {1}'.format(holder[i][0], holder[i][1]))
+        # for i in range(len(holder)):
+        #     print('Skill: {0},\tPower: {1}'.format(holder[i][0], holder[i][1]))

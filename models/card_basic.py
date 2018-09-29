@@ -12,6 +12,7 @@ class CardBasic:
     stills = os.listdir(config.paths.stillsPath)
 
     def __init__(self, card_id=0, card_type=1):
+        print('Init card')
         self.id = card_id
         self.name = ""
         self.trait = []
@@ -82,7 +83,7 @@ class CardBasic:
             self.trait.append(traits.text)
 
         # If no level, assume max level
-        if not (self.level):
+        if not self.level:
             self.level = (self.rarity + 2) * 3
 
     def updateShow(self):
@@ -175,6 +176,7 @@ class CardBasic:
 
             frame_name += ".png"
 
+        print('[Updating card frame] Card id: {0}\tFrame name from {1} to {2}'.format(self.id, self.frame, frame_name))
         self.frame = frame_name
 
     def createCardImage(self):

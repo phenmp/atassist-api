@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 
+
             
                         
 <combo> <!-- Chris + Quahog Martial Arts Academy-->
@@ -498,6 +499,70 @@
 <combo> <!-- Chris Griffin + Bedtime Stories-->
 <card_id>15127</card_id>
 <cards card1='10030' card2='10047' />
+</combo>
+<combo> <!-- Chris + Prescription Weed-->
+<card_id>15004</card_id>
+<cards card1='10006' card2='20051' />
+</combo>
+<combo> <!-- Chris Griffin + Prescription Weed-->
+<card_id>15004</card_id>
+<cards card1='10030' card2='20051' />
+</combo>
+<combo> <!-- Chris + Leon Petard-->
+<card_id>15004</card_id>
+<cards card1='10006' card2='40052' />
+</combo>
+<combo> <!-- Chris Griffin + Leon Petard-->
+<card_id>15004</card_id>
+<cards card1='10030' card2='40052' />
+</combo>
+<combo> <!-- Chris + Hypnotoad-->
+<card_id>15004</card_id>
+<cards card1='10006' card2='50056' />
+</combo>
+<combo> <!-- Chris Griffin + Hypnotoad-->
+<card_id>15004</card_id>
+<cards card1='10030' card2='50056' />
+</combo>
+<combo> <!-- Chris + Refreshing Crack-->
+<card_id>15004</card_id>
+<cards card1='10006' card2='50057' />
+</combo>
+<combo> <!-- Chris Griffin + Refreshing Crack-->
+<card_id>15004</card_id>
+<cards card1='10030' card2='50057' />
+</combo>
+<combo> <!-- Chris + Baked Evil Monkey-->
+<card_id>15004</card_id>
+<cards card1='10006' card2='10064' />
+</combo>
+<combo> <!-- Chris Griffin + Baked Evil Monkey-->
+<card_id>15004</card_id>
+<cards card1='10030' card2='10064' />
+</combo>
+<combo> <!-- Chris + Olive Addict-->
+<card_id>15004</card_id>
+<cards card1='10006' card2='10065' />
+</combo>
+<combo> <!-- Chris Griffin + Olive Addict-->
+<card_id>15004</card_id>
+<cards card1='10030' card2='10065' />
+</combo>
+<combo> <!-- Chris + Chinchilla Addict Wayne-->
+<card_id>15004</card_id>
+<cards card1='10006' card2='30064' />
+</combo>
+<combo> <!-- Chris Griffin + Chinchilla Addict Wayne-->
+<card_id>15004</card_id>
+<cards card1='10030' card2='30064' />
+</combo>
+<combo> <!-- Chris + Stems and Seeds-->
+<card_id>15004</card_id>
+<cards card1='10006' card2='40051' />
+</combo>
+<combo> <!-- Chris Griffin + Stems and Seeds-->
+<card_id>15004</card_id>
+<cards card1='10030' card2='40051' />
 </combo>
 <combo> <!-- Chris + Crack-->
 <card_id>15004</card_id>
@@ -2063,14 +2128,6 @@
 <card_id>15020</card_id>
 <cards card1='1100001' card2='10019' />
 </combo>
-<combo> <!-- Stewie + Shovel-->
-<card_id>15020</card_id>
-<cards card1='10009' card2='10021' />
-</combo>
-<combo> <!-- Stewie + Shovel-->
-<card_id>15020</card_id>
-<cards card1='1100001' card2='10021' />
-</combo>
 <combo> <!-- Stewie + Weapon-->
 <card_id>15020</card_id>
 <cards card1='10009' card2='60003' />
@@ -2214,6 +2271,70 @@
 <combo> <!-- Stewie + James Woods High School-->
 <card_id>15014</card_id>
 <cards card1='1100001' card2='10058' />
+</combo>
+<combo> <!-- Stewie + Prescription Weed-->
+<card_id>15018</card_id>
+<cards card1='10009' card2='20051' />
+</combo>
+<combo> <!-- Stewie + Prescription Weed-->
+<card_id>15018</card_id>
+<cards card1='1100001' card2='20051' />
+</combo>
+<combo> <!-- Stewie + Leon Petard-->
+<card_id>15018</card_id>
+<cards card1='10009' card2='40052' />
+</combo>
+<combo> <!-- Stewie + Leon Petard-->
+<card_id>15018</card_id>
+<cards card1='1100001' card2='40052' />
+</combo>
+<combo> <!-- Stewie + Hypnotoad-->
+<card_id>15018</card_id>
+<cards card1='10009' card2='50056' />
+</combo>
+<combo> <!-- Stewie + Hypnotoad-->
+<card_id>15018</card_id>
+<cards card1='1100001' card2='50056' />
+</combo>
+<combo> <!-- Stewie + Refreshing Crack-->
+<card_id>15018</card_id>
+<cards card1='10009' card2='50057' />
+</combo>
+<combo> <!-- Stewie + Refreshing Crack-->
+<card_id>15018</card_id>
+<cards card1='1100001' card2='50057' />
+</combo>
+<combo> <!-- Stewie + Baked Evil Monkey-->
+<card_id>15018</card_id>
+<cards card1='10009' card2='10064' />
+</combo>
+<combo> <!-- Stewie + Baked Evil Monkey-->
+<card_id>15018</card_id>
+<cards card1='1100001' card2='10064' />
+</combo>
+<combo> <!-- Stewie + Olive Addict-->
+<card_id>15018</card_id>
+<cards card1='10009' card2='10065' />
+</combo>
+<combo> <!-- Stewie + Olive Addict-->
+<card_id>15018</card_id>
+<cards card1='1100001' card2='10065' />
+</combo>
+<combo> <!-- Stewie + Chinchilla Addict Wayne-->
+<card_id>15018</card_id>
+<cards card1='10009' card2='30064' />
+</combo>
+<combo> <!-- Stewie + Chinchilla Addict Wayne-->
+<card_id>15018</card_id>
+<cards card1='1100001' card2='30064' />
+</combo>
+<combo> <!-- Stewie + Stems and Seeds-->
+<card_id>15018</card_id>
+<cards card1='10009' card2='40051' />
+</combo>
+<combo> <!-- Stewie + Stems and Seeds-->
+<card_id>15018</card_id>
+<cards card1='1100001' card2='40051' />
 </combo>
 <combo> <!-- Stewie + Crack-->
 <card_id>15018</card_id>
@@ -3767,6 +3888,70 @@
 <card_id>15084</card_id>
 <cards card1='1100002' card2='10029' />
 </combo>
+<combo> <!-- Quagmire + Prescription Weed-->
+<card_id>15085</card_id>
+<cards card1='10018' card2='20051' />
+</combo>
+<combo> <!-- Quagmire + Prescription Weed-->
+<card_id>15085</card_id>
+<cards card1='1100002' card2='20051' />
+</combo>
+<combo> <!-- Quagmire + Leon Petard-->
+<card_id>15085</card_id>
+<cards card1='10018' card2='40052' />
+</combo>
+<combo> <!-- Quagmire + Leon Petard-->
+<card_id>15085</card_id>
+<cards card1='1100002' card2='40052' />
+</combo>
+<combo> <!-- Quagmire + Hypnotoad-->
+<card_id>15085</card_id>
+<cards card1='10018' card2='50056' />
+</combo>
+<combo> <!-- Quagmire + Hypnotoad-->
+<card_id>15085</card_id>
+<cards card1='1100002' card2='50056' />
+</combo>
+<combo> <!-- Quagmire + Refreshing Crack-->
+<card_id>15085</card_id>
+<cards card1='10018' card2='50057' />
+</combo>
+<combo> <!-- Quagmire + Refreshing Crack-->
+<card_id>15085</card_id>
+<cards card1='1100002' card2='50057' />
+</combo>
+<combo> <!-- Quagmire + Baked Evil Monkey-->
+<card_id>15085</card_id>
+<cards card1='10018' card2='10064' />
+</combo>
+<combo> <!-- Quagmire + Baked Evil Monkey-->
+<card_id>15085</card_id>
+<cards card1='1100002' card2='10064' />
+</combo>
+<combo> <!-- Quagmire + Olive Addict-->
+<card_id>15085</card_id>
+<cards card1='10018' card2='10065' />
+</combo>
+<combo> <!-- Quagmire + Olive Addict-->
+<card_id>15085</card_id>
+<cards card1='1100002' card2='10065' />
+</combo>
+<combo> <!-- Quagmire + Chinchilla Addict Wayne-->
+<card_id>15085</card_id>
+<cards card1='10018' card2='30064' />
+</combo>
+<combo> <!-- Quagmire + Chinchilla Addict Wayne-->
+<card_id>15085</card_id>
+<cards card1='1100002' card2='30064' />
+</combo>
+<combo> <!-- Quagmire + Stems and Seeds-->
+<card_id>15085</card_id>
+<cards card1='10018' card2='40051' />
+</combo>
+<combo> <!-- Quagmire + Stems and Seeds-->
+<card_id>15085</card_id>
+<cards card1='1100002' card2='40051' />
+</combo>
 <combo> <!-- Quagmire + Crack-->
 <card_id>15085</card_id>
 <cards card1='10018' card2='20014' />
@@ -3830,30 +4015,6 @@
 <combo> <!-- Quagmire + Butterscotch Cookies-->
 <card_id>15085</card_id>
 <cards card1='1100002' card2='30037' />
-</combo>
-<combo> <!-- Quagmire + Shovel-->
-<card_id>15096</card_id>
-<cards card1='10018' card2='10021' />
-</combo>
-<combo> <!-- Quagmire + Shovel-->
-<card_id>15096</card_id>
-<cards card1='1100002' card2='10021' />
-</combo>
-<combo> <!-- Quagmire + Movie Theater-->
-<card_id>15098</card_id>
-<cards card1='10018' card2='10022' />
-</combo>
-<combo> <!-- Quagmire + Movie Theater-->
-<card_id>15098</card_id>
-<cards card1='1100002' card2='10022' />
-</combo>
-<combo> <!-- Quagmire + Quahog Asylum-->
-<card_id>15100</card_id>
-<cards card1='10018' card2='10023' />
-</combo>
-<combo> <!-- Quagmire + Quahog Asylum-->
-<card_id>15100</card_id>
-<cards card1='1100002' card2='10023' />
 </combo>
 <combo> <!-- Quagmire + Lady Wrestling-->
 <card_id>15163</card_id>
@@ -4014,6 +4175,38 @@
 <combo> <!-- Quagmire + Doubles Ping Pong-->
 <card_id>15163</card_id>
 <cards card1='1100002' card2='50053' />
+</combo>
+<combo> <!-- Peter + Baked Evil Monkey-->
+<card_id>15170</card_id>
+<cards card1='10001' card2='10064' />
+</combo>
+<combo> <!-- Peter + Olive Addict-->
+<card_id>15170</card_id>
+<cards card1='10001' card2='10065' />
+</combo>
+<combo> <!-- Peter + Prescription Weed-->
+<card_id>15170</card_id>
+<cards card1='10001' card2='20051' />
+</combo>
+<combo> <!-- Peter + Chinchilla Addict Wayne-->
+<card_id>15170</card_id>
+<cards card1='10001' card2='30064' />
+</combo>
+<combo> <!-- Peter + Stems and Seeds-->
+<card_id>15170</card_id>
+<cards card1='10001' card2='40051' />
+</combo>
+<combo> <!-- Peter + Leon Petard-->
+<card_id>15170</card_id>
+<cards card1='10001' card2='40052' />
+</combo>
+<combo> <!-- Peter + Hypnotoad-->
+<card_id>15170</card_id>
+<cards card1='10001' card2='50056' />
+</combo>
+<combo> <!-- Peter + Refreshing Crack-->
+<card_id>15170</card_id>
+<cards card1='10001' card2='50057' />
 </combo>
 <combo> <!-- Peter + Turkey Day Football-->
 <card_id>15162</card_id>
@@ -4759,17 +4952,117 @@
 <card_id>15074</card_id>
 <cards card1='10001' card2='30018' />
 </combo>
-<combo> <!-- Peter + Shovel-->
-<card_id>15095</card_id>
-<cards card1='10001' card2='10021' />
+<combo> <!-- Meg + Baked Evil Monkey-->
+<card_id>15172</card_id>
+<cards card1='10005' card2='10064' />
 </combo>
-<combo> <!-- Peter + Movie Theater-->
-<card_id>15097</card_id>
-<cards card1='10001' card2='10022' />
+<combo> <!-- Meg Griffin + Baked Evil Monkey-->
+<card_id>15172</card_id>
+<cards card1='10056' card2='10064' />
 </combo>
-<combo> <!-- Peter + Quahog Asylum-->
-<card_id>15101</card_id>
-<cards card1='10001' card2='10023' />
+<combo> <!-- Meg + Olive Addict-->
+<card_id>15172</card_id>
+<cards card1='10005' card2='10065' />
+</combo>
+<combo> <!-- Meg Griffin + Olive Addict-->
+<card_id>15172</card_id>
+<cards card1='10056' card2='10065' />
+</combo>
+<combo> <!-- Meg + Prescription Weed-->
+<card_id>15172</card_id>
+<cards card1='10005' card2='20051' />
+</combo>
+<combo> <!-- Meg Griffin + Prescription Weed-->
+<card_id>15172</card_id>
+<cards card1='10056' card2='20051' />
+</combo>
+<combo> <!-- Meg + Chinchilla Addict Wayne-->
+<card_id>15172</card_id>
+<cards card1='10005' card2='30064' />
+</combo>
+<combo> <!-- Meg Griffin + Chinchilla Addict Wayne-->
+<card_id>15172</card_id>
+<cards card1='10056' card2='30064' />
+</combo>
+<combo> <!-- Meg + Stems and Seeds-->
+<card_id>15172</card_id>
+<cards card1='10005' card2='40051' />
+</combo>
+<combo> <!-- Meg Griffin + Stems and Seeds-->
+<card_id>15172</card_id>
+<cards card1='10056' card2='40051' />
+</combo>
+<combo> <!-- Meg + Leon Petard-->
+<card_id>15172</card_id>
+<cards card1='10005' card2='40052' />
+</combo>
+<combo> <!-- Meg Griffin + Leon Petard-->
+<card_id>15172</card_id>
+<cards card1='10056' card2='40052' />
+</combo>
+<combo> <!-- Meg + Hypnotoad-->
+<card_id>15172</card_id>
+<cards card1='10005' card2='50056' />
+</combo>
+<combo> <!-- Meg Griffin + Hypnotoad-->
+<card_id>15172</card_id>
+<cards card1='10056' card2='50056' />
+</combo>
+<combo> <!-- Meg + Refreshing Crack-->
+<card_id>15172</card_id>
+<cards card1='10005' card2='50057' />
+</combo>
+<combo> <!-- Meg Griffin + Refreshing Crack-->
+<card_id>15172</card_id>
+<cards card1='10056' card2='50057' />
+</combo>
+<combo> <!-- Meg + Toad Licking-->
+<card_id>15172</card_id>
+<cards card1='10005' card2='10063' />
+</combo>
+<combo> <!-- Meg Griffin + Toad Licking-->
+<card_id>15172</card_id>
+<cards card1='10056' card2='10063' />
+</combo>
+<combo> <!-- Meg + Toad Licking-->
+<card_id>15172</card_id>
+<cards card1='10005' card2='10003' />
+</combo>
+<combo> <!-- Meg Griffin + Toad Licking-->
+<card_id>15172</card_id>
+<cards card1='10056' card2='10003' />
+</combo>
+<combo> <!-- Meg + Crack-->
+<card_id>15172</card_id>
+<cards card1='10005' card2='20014' />
+</combo>
+<combo> <!-- Meg Griffin + Crack-->
+<card_id>15172</card_id>
+<cards card1='10056' card2='20014' />
+</combo>
+<combo> <!-- Meg + Painkillers-->
+<card_id>15172</card_id>
+<cards card1='10005' card2='30018' />
+</combo>
+<combo> <!-- Meg Griffin + Painkillers-->
+<card_id>15172</card_id>
+<cards card1='10056' card2='30018' />
+</combo>
+<combo> <!-- Meg + Butterscotch Cookies-->
+<card_id>15172</card_id>
+<cards card1='10005' card2='30037' />
+</combo>
+<combo> <!-- Meg Griffin + Butterscotch Cookies-->
+<card_id>15172</card_id>
+<cards card1='10056' card2='30037' />
+</combo>
+<combo> <!-- Meg + Manitoba Cigarettes-->
+<card_id>15172</card_id>
+<cards card1='10005' card2='40015' />
+</combo>
+<combo> <!-- Meg Griffin + Manitoba Cigarettes-->
+<card_id>15172</card_id>
+<cards card1='10056' card2='40015' />
 </combo>
 <combo> <!-- Meg + No Mercy Dojo-->
 <card_id>15168</card_id>
@@ -5917,14 +6210,6 @@
 <card_id>15060</card_id>
 <cards card1='10056' card2='10019' />
 </combo>
-<combo> <!-- Meg + Shovel-->
-<card_id>15060</card_id>
-<cards card1='10005' card2='10021' />
-</combo>
-<combo> <!-- Meg Griffin + Shovel-->
-<card_id>15060</card_id>
-<cards card1='10056' card2='10021' />
-</combo>
 <combo> <!-- Meg + Weapon-->
 <card_id>15060</card_id>
 <cards card1='10005' card2='60003' />
@@ -5949,281 +6234,621 @@
 <card_id>15060</card_id>
 <cards card1='10056' card2='50029' />
 </combo>
+<combo> <!-- Lois + Baked Evil Monkey-->
+<card_id>15171</card_id>
+<cards card1='10007' card2='10064' />
+</combo>
+<combo> <!-- Lois Griffin + Baked Evil Monkey-->
+<card_id>15171</card_id>
+<cards card1='10066' card2='10064' />
+</combo>
+<combo> <!-- Lois + Olive Addict-->
+<card_id>15171</card_id>
+<cards card1='10007' card2='10065' />
+</combo>
+<combo> <!-- Lois Griffin + Olive Addict-->
+<card_id>15171</card_id>
+<cards card1='10066' card2='10065' />
+</combo>
+<combo> <!-- Lois + Prescription Weed-->
+<card_id>15171</card_id>
+<cards card1='10007' card2='20051' />
+</combo>
+<combo> <!-- Lois Griffin + Prescription Weed-->
+<card_id>15171</card_id>
+<cards card1='10066' card2='20051' />
+</combo>
+<combo> <!-- Lois + Chinchilla Addict Wayne-->
+<card_id>15171</card_id>
+<cards card1='10007' card2='30064' />
+</combo>
+<combo> <!-- Lois Griffin + Chinchilla Addict Wayne-->
+<card_id>15171</card_id>
+<cards card1='10066' card2='30064' />
+</combo>
+<combo> <!-- Lois + Stems and Seeds-->
+<card_id>15171</card_id>
+<cards card1='10007' card2='40051' />
+</combo>
+<combo> <!-- Lois Griffin + Stems and Seeds-->
+<card_id>15171</card_id>
+<cards card1='10066' card2='40051' />
+</combo>
+<combo> <!-- Lois + Leon Petard-->
+<card_id>15171</card_id>
+<cards card1='10007' card2='40052' />
+</combo>
+<combo> <!-- Lois Griffin + Leon Petard-->
+<card_id>15171</card_id>
+<cards card1='10066' card2='40052' />
+</combo>
+<combo> <!-- Lois + Hypnotoad-->
+<card_id>15171</card_id>
+<cards card1='10007' card2='50056' />
+</combo>
+<combo> <!-- Lois Griffin + Hypnotoad-->
+<card_id>15171</card_id>
+<cards card1='10066' card2='50056' />
+</combo>
+<combo> <!-- Lois + Refreshing Crack-->
+<card_id>15171</card_id>
+<cards card1='10007' card2='50057' />
+</combo>
+<combo> <!-- Lois Griffin + Refreshing Crack-->
+<card_id>15171</card_id>
+<cards card1='10066' card2='50057' />
+</combo>
 <combo> <!-- Lois + Brian's Martini-->
 <card_id>15155</card_id>
 <cards card1='10007' card2='10027' />
+</combo>
+<combo> <!-- Lois Griffin + Brian's Martini-->
+<card_id>15155</card_id>
+<cards card1='10066' card2='10027' />
 </combo>
 <combo> <!-- Lois + Wine Shoe-->
 <card_id>15155</card_id>
 <cards card1='10007' card2='30028' />
 </combo>
+<combo> <!-- Lois Griffin + Wine Shoe-->
+<card_id>15155</card_id>
+<cards card1='10066' card2='30028' />
+</combo>
 <combo> <!-- Lois + Absinthe-->
 <card_id>15155</card_id>
 <cards card1='10007' card2='30027' />
+</combo>
+<combo> <!-- Lois Griffin + Absinthe-->
+<card_id>15155</card_id>
+<cards card1='10066' card2='30027' />
 </combo>
 <combo> <!-- Lois + Klein's Beer-->
 <card_id>15155</card_id>
 <cards card1='10007' card2='50030' />
 </combo>
+<combo> <!-- Lois Griffin + Klein's Beer-->
+<card_id>15155</card_id>
+<cards card1='10066' card2='50030' />
+</combo>
 <combo> <!-- Lois + Maltese Liquor-->
 <card_id>15155</card_id>
 <cards card1='10007' card2='50023' />
+</combo>
+<combo> <!-- Lois Griffin + Maltese Liquor-->
+<card_id>15155</card_id>
+<cards card1='10066' card2='50023' />
 </combo>
 <combo> <!-- Lois + Best Swamp Parties-->
 <card_id>15155</card_id>
 <cards card1='10007' card2='30029' />
 </combo>
+<combo> <!-- Lois Griffin + Best Swamp Parties-->
+<card_id>15155</card_id>
+<cards card1='10066' card2='30029' />
+</combo>
 <combo> <!-- Lois + Thunder Cocktails-->
 <card_id>15155</card_id>
 <cards card1='10007' card2='50049' />
+</combo>
+<combo> <!-- Lois Griffin + Thunder Cocktails-->
+<card_id>15155</card_id>
+<cards card1='10066' card2='50049' />
 </combo>
 <combo> <!-- Lois + Wine Bucket-->
 <card_id>15155</card_id>
 <cards card1='10007' card2='50050' />
 </combo>
+<combo> <!-- Lois Griffin + Wine Bucket-->
+<card_id>15155</card_id>
+<cards card1='10066' card2='50050' />
+</combo>
 <combo> <!-- Lois + Welcome Mojitos-->
 <card_id>15155</card_id>
 <cards card1='10007' card2='30045' />
+</combo>
+<combo> <!-- Lois Griffin + Welcome Mojitos-->
+<card_id>15155</card_id>
+<cards card1='10066' card2='30045' />
 </combo>
 <combo> <!-- Lois + Jelly Bean Schnapps-->
 <card_id>15155</card_id>
 <cards card1='10007' card2='30044' />
 </combo>
+<combo> <!-- Lois Griffin + Jelly Bean Schnapps-->
+<card_id>15155</card_id>
+<cards card1='10066' card2='30044' />
+</combo>
 <combo> <!-- Lois + Vodka Beer-->
 <card_id>15155</card_id>
 <cards card1='10007' card2='10054' />
+</combo>
+<combo> <!-- Lois Griffin + Vodka Beer-->
+<card_id>15155</card_id>
+<cards card1='10066' card2='10054' />
 </combo>
 <combo> <!-- Lois + Wine Trio-->
 <card_id>15155</card_id>
 <cards card1='10007' card2='20045' />
 </combo>
+<combo> <!-- Lois Griffin + Wine Trio-->
+<card_id>15155</card_id>
+<cards card1='10066' card2='20045' />
+</combo>
 <combo> <!-- Lois + Brau Beer-->
 <card_id>15155</card_id>
 <cards card1='10007' card2='40045' />
+</combo>
+<combo> <!-- Lois Griffin + Brau Beer-->
+<card_id>15155</card_id>
+<cards card1='10066' card2='40045' />
 </combo>
 <combo> <!-- Lois + Terrestial Cycling-->
 <card_id>15144</card_id>
 <cards card1='10007' card2='50043' />
 </combo>
+<combo> <!-- Lois Griffin + Terrestial Cycling-->
+<card_id>15144</card_id>
+<cards card1='10066' card2='50043' />
+</combo>
 <combo> <!-- Lois + Roller Derby-->
 <card_id>15144</card_id>
 <cards card1='10007' card2='20025' />
+</combo>
+<combo> <!-- Lois Griffin + Roller Derby-->
+<card_id>15144</card_id>
+<cards card1='10066' card2='20025' />
 </combo>
 <combo> <!-- Lois + Flag Football-->
 <card_id>15144</card_id>
 <cards card1='10007' card2='40026' />
 </combo>
+<combo> <!-- Lois Griffin + Flag Football-->
+<card_id>15144</card_id>
+<cards card1='10066' card2='40026' />
+</combo>
 <combo> <!-- Lois + Freezer Dome-->
 <card_id>15144</card_id>
 <cards card1='10007' card2='30039' />
+</combo>
+<combo> <!-- Lois Griffin + Freezer Dome-->
+<card_id>15144</card_id>
+<cards card1='10066' card2='30039' />
 </combo>
 <combo> <!-- Lois + Shuttlecock Ring-->
 <card_id>15144</card_id>
 <cards card1='10007' card2='20032' />
 </combo>
+<combo> <!-- Lois Griffin + Shuttlecock Ring-->
+<card_id>15144</card_id>
+<cards card1='10066' card2='20032' />
+</combo>
 <combo> <!-- Lois + SportsBot 5000-->
 <card_id>15144</card_id>
 <cards card1='10007' card2='50033' />
+</combo>
+<combo> <!-- Lois Griffin + SportsBot 5000-->
+<card_id>15144</card_id>
+<cards card1='10066' card2='50033' />
 </combo>
 <combo> <!-- Lois + Softball Player Jerome-->
 <card_id>15144</card_id>
 <cards card1='10007' card2='10048' />
 </combo>
+<combo> <!-- Lois Griffin + Softball Player Jerome-->
+<card_id>15144</card_id>
+<cards card1='10066' card2='10048' />
+</combo>
 <combo> <!-- Lois + Synchronized Swimming-->
 <card_id>15144</card_id>
 <cards card1='10007' card2='30051' />
+</combo>
+<combo> <!-- Lois Griffin + Synchronized Swimming-->
+<card_id>15144</card_id>
+<cards card1='10066' card2='30051' />
 </combo>
 <combo> <!-- Lois + Doubles Ping Pong-->
 <card_id>15144</card_id>
 <cards card1='10007' card2='50053' />
 </combo>
+<combo> <!-- Lois Griffin + Doubles Ping Pong-->
+<card_id>15144</card_id>
+<cards card1='10066' card2='50053' />
+</combo>
 <combo> <!-- Lois + Toxic Shock-->
 <card_id>15144</card_id>
 <cards card1='10007' card2='10059' />
+</combo>
+<combo> <!-- Lois Griffin + Toxic Shock-->
+<card_id>15144</card_id>
+<cards card1='10066' card2='10059' />
 </combo>
 <combo> <!-- Lois + The Bazooka Sharks-->
 <card_id>15144</card_id>
 <cards card1='10007' card2='20047' />
 </combo>
+<combo> <!-- Lois Griffin + The Bazooka Sharks-->
+<card_id>15144</card_id>
+<cards card1='10066' card2='20047' />
+</combo>
 <combo> <!-- Lois + Millie's Trampoline-->
 <card_id>15144</card_id>
 <cards card1='10007' card2='30061' />
+</combo>
+<combo> <!-- Lois Griffin + Millie's Trampoline-->
+<card_id>15144</card_id>
+<cards card1='10066' card2='30061' />
 </combo>
 <combo> <!-- Lois + Tom Landry Baseball Team-->
 <card_id>15144</card_id>
 <cards card1='10007' card2='40048' />
 </combo>
+<combo> <!-- Lois Griffin + Tom Landry Baseball Team-->
+<card_id>15144</card_id>
+<cards card1='10066' card2='40048' />
+</combo>
 <combo> <!-- Lois + Disco Murder Mystery-->
 <card_id>15142</card_id>
 <cards card1='10007' card2='40024' />
+</combo>
+<combo> <!-- Lois Griffin + Disco Murder Mystery-->
+<card_id>15142</card_id>
+<cards card1='10066' card2='40024' />
 </combo>
 <combo> <!-- Lois + Stan's Haunted House-->
 <card_id>15142</card_id>
 <cards card1='10007' card2='20033' />
 </combo>
+<combo> <!-- Lois Griffin + Stan's Haunted House-->
+<card_id>15142</card_id>
+<cards card1='10066' card2='20033' />
+</combo>
 <combo> <!-- Lois + Cupid Cleveland-->
 <card_id>15142</card_id>
 <cards card1='10007' card2='10040' />
+</combo>
+<combo> <!-- Lois Griffin + Cupid Cleveland-->
+<card_id>15142</card_id>
+<cards card1='10066' card2='10040' />
 </combo>
 <combo> <!-- Lois + Ski Mask-->
 <card_id>15142</card_id>
 <cards card1='10007' card2='40037' />
 </combo>
+<combo> <!-- Lois Griffin + Ski Mask-->
+<card_id>15142</card_id>
+<cards card1='10066' card2='40037' />
+</combo>
 <combo> <!-- Lois + Roger's Sexy Shorts-->
 <card_id>15142</card_id>
 <cards card1='10007' card2='20038' />
+</combo>
+<combo> <!-- Lois Griffin + Roger's Sexy Shorts-->
+<card_id>15142</card_id>
+<cards card1='10066' card2='20038' />
 </combo>
 <combo> <!-- Lois + Lightspeed Briefs-->
 <card_id>15142</card_id>
 <cards card1='10007' card2='50042' />
 </combo>
+<combo> <!-- Lois Griffin + Lightspeed Briefs-->
+<card_id>15142</card_id>
+<cards card1='10066' card2='50042' />
+</combo>
 <combo> <!-- Lois + Spring Break Shots-->
 <card_id>15135</card_id>
 <cards card1='10007' card2='20035' />
+</combo>
+<combo> <!-- Lois Griffin + Spring Break Shots-->
+<card_id>15135</card_id>
+<cards card1='10066' card2='20035' />
 </combo>
 <combo> <!-- Lois + The Drunken Clam-->
 <card_id>15135</card_id>
 <cards card1='10007' card2='10026' />
 </combo>
+<combo> <!-- Lois Griffin + The Drunken Clam-->
+<card_id>15135</card_id>
+<cards card1='10066' card2='10026' />
+</combo>
 <combo> <!-- Lois + Personalized Beer Mug-->
 <card_id>15135</card_id>
 <cards card1='10007' card2='40023' />
+</combo>
+<combo> <!-- Lois Griffin + Personalized Beer Mug-->
+<card_id>15135</card_id>
+<cards card1='10066' card2='40023' />
 </combo>
 <combo> <!-- Lois + Slewback-->
 <card_id>15135</card_id>
 <cards card1='10007' card2='40029' />
 </combo>
+<combo> <!-- Lois Griffin + Slewback-->
+<card_id>15135</card_id>
+<cards card1='10066' card2='40029' />
+</combo>
 <combo> <!-- Lois + Beerwater-->
 <card_id>15135</card_id>
 <cards card1='10007' card2='20030' />
+</combo>
+<combo> <!-- Lois Griffin + Beerwater-->
+<card_id>15135</card_id>
+<cards card1='10066' card2='20030' />
 </combo>
 <combo> <!-- Lois + Lo Brau-->
 <card_id>15135</card_id>
 <cards card1='10007' card2='50031' />
 </combo>
+<combo> <!-- Lois Griffin + Lo Brau-->
+<card_id>15135</card_id>
+<cards card1='10066' card2='50031' />
+</combo>
 <combo> <!-- Lois + Party in the Beer Tank-->
 <card_id>15135</card_id>
 <cards card1='10007' card2='10043' />
+</combo>
+<combo> <!-- Lois Griffin + Party in the Beer Tank-->
+<card_id>15135</card_id>
+<cards card1='10066' card2='10043' />
 </combo>
 <combo> <!-- Lois + Oktober Brau-->
 <card_id>15135</card_id>
 <cards card1='10007' card2='50037' />
 </combo>
+<combo> <!-- Lois Griffin + Oktober Brau-->
+<card_id>15135</card_id>
+<cards card1='10066' card2='50037' />
+</combo>
 <combo> <!-- Lois + Quahog Martial Arts Academy-->
 <card_id>15122</card_id>
 <cards card1='10007' card2='10061' />
+</combo>
+<combo> <!-- Lois Griffin + Quahog Martial Arts Academy-->
+<card_id>15122</card_id>
+<cards card1='10066' card2='10061' />
 </combo>
 <combo> <!-- Lois + Capoeira Reginald-->
 <card_id>15122</card_id>
 <cards card1='10007' card2='20050' />
 </combo>
+<combo> <!-- Lois Griffin + Capoeira Reginald-->
+<card_id>15122</card_id>
+<cards card1='10066' card2='20050' />
+</combo>
 <combo> <!-- Lois + That's My Parfait-->
 <card_id>15122</card_id>
 <cards card1='10007' card2='30063' />
+</combo>
+<combo> <!-- Lois Griffin + That's My Parfait-->
+<card_id>15122</card_id>
+<cards card1='10066' card2='30063' />
 </combo>
 <combo> <!-- Lois + Stop Hittin' Yourself-->
 <card_id>15122</card_id>
 <cards card1='10007' card2='40050' />
 </combo>
+<combo> <!-- Lois Griffin + Stop Hittin' Yourself-->
+<card_id>15122</card_id>
+<cards card1='10066' card2='40050' />
+</combo>
 <combo> <!-- Lois + Himalayan Observatory Monks-->
 <card_id>15122</card_id>
 <cards card1='10007' card2='50055' />
+</combo>
+<combo> <!-- Lois Griffin + Himalayan Observatory Monks-->
+<card_id>15122</card_id>
+<cards card1='10066' card2='50055' />
 </combo>
 <combo> <!-- Lois + Dojo Biden-->
 <card_id>15122</card_id>
 <cards card1='10007' card2='20021' />
 </combo>
+<combo> <!-- Lois Griffin + Dojo Biden-->
+<card_id>15122</card_id>
+<cards card1='10066' card2='20021' />
+</combo>
 <combo> <!-- Lois + Capoeira-->
 <card_id>15122</card_id>
 <cards card1='10007' card2='30021' />
+</combo>
+<combo> <!-- Lois Griffin + Capoeira-->
+<card_id>15122</card_id>
+<cards card1='10066' card2='30021' />
 </combo>
 <combo> <!-- Lois + Women's Self Defense-->
 <card_id>15122</card_id>
 <cards card1='10007' card2='40021' />
 </combo>
+<combo> <!-- Lois Griffin + Women's Self Defense-->
+<card_id>15122</card_id>
+<cards card1='10066' card2='40021' />
+</combo>
 <combo> <!-- Lois + No Mercy Dojo-->
 <card_id>15122</card_id>
 <cards card1='10007' card2='10037' />
+</combo>
+<combo> <!-- Lois Griffin + No Mercy Dojo-->
+<card_id>15122</card_id>
+<cards card1='10066' card2='10037' />
 </combo>
 <combo> <!-- Lois + Samurai Toshi-->
 <card_id>15122</card_id>
 <cards card1='10007' card2='20029' />
 </combo>
+<combo> <!-- Lois Griffin + Samurai Toshi-->
+<card_id>15122</card_id>
+<cards card1='10066' card2='20029' />
+</combo>
 <combo> <!-- Lois + Diamond Crusher-->
 <card_id>15122</card_id>
 <cards card1='10007' card2='50044' />
+</combo>
+<combo> <!-- Lois Griffin + Diamond Crusher-->
+<card_id>15122</card_id>
+<cards card1='10066' card2='50044' />
 </combo>
 <combo> <!-- Lois + Arlen YMCA-->
 <card_id>15122</card_id>
 <cards card1='10007' card2='40039' />
 </combo>
+<combo> <!-- Lois Griffin + Arlen YMCA-->
+<card_id>15122</card_id>
+<cards card1='10066' card2='40039' />
+</combo>
 <combo> <!-- Lois + Brian The Home Invader Lewis-->
 <card_id>15122</card_id>
 <cards card1='10007' card2='20039' />
+</combo>
+<combo> <!-- Lois Griffin + Brian The Home Invader Lewis-->
+<card_id>15122</card_id>
+<cards card1='10066' card2='20039' />
 </combo>
 <combo> <!-- Lois + Roger's Closet-->
 <card_id>15002</card_id>
 <cards card1='10007' card2='20010' />
 </combo>
+<combo> <!-- Lois Griffin + Roger's Closet-->
+<card_id>15002</card_id>
+<cards card1='10066' card2='20010' />
+</combo>
 <combo> <!-- Lois + Hank Hell's Haunted House-->
 <card_id>15002</card_id>
 <cards card1='10007' card2='40013' />
+</combo>
+<combo> <!-- Lois Griffin + Hank Hell's Haunted House-->
+<card_id>15002</card_id>
+<cards card1='10066' card2='40013' />
 </combo>
 <combo> <!-- Lois + Burger Suit-->
 <card_id>15002</card_id>
 <cards card1='10007' card2='30009' />
 </combo>
+<combo> <!-- Lois Griffin + Burger Suit-->
+<card_id>15002</card_id>
+<cards card1='10066' card2='30009' />
+</combo>
 <combo> <!-- Lois + Marmoset Pajamas-->
 <card_id>15002</card_id>
 <cards card1='10007' card2='50009' />
+</combo>
+<combo> <!-- Lois Griffin + Marmoset Pajamas-->
+<card_id>15002</card_id>
+<cards card1='10066' card2='50009' />
 </combo>
 <combo> <!-- Lois + Fairy Godmother-->
 <card_id>15002</card_id>
 <cards card1='10007' card2='10014' />
 </combo>
+<combo> <!-- Lois Griffin + Fairy Godmother-->
+<card_id>15002</card_id>
+<cards card1='10066' card2='10014' />
+</combo>
 <combo> <!-- Lois + Costume-->
 <card_id>15002</card_id>
 <cards card1='10007' card2='60007' />
+</combo>
+<combo> <!-- Lois Griffin + Costume-->
+<card_id>15002</card_id>
+<cards card1='10066' card2='60007' />
 </combo>
 <combo> <!-- Lois + Pimparoo-->
 <card_id>15002</card_id>
 <cards card1='10007' card2='50024' />
 </combo>
+<combo> <!-- Lois Griffin + Pimparoo-->
+<card_id>15002</card_id>
+<cards card1='10066' card2='50024' />
+</combo>
 <combo> <!-- Lois + Book of Spells-->
 <card_id>15002</card_id>
 <cards card1='10007' card2='30031' />
+</combo>
+<combo> <!-- Lois Griffin + Book of Spells-->
+<card_id>15002</card_id>
+<cards card1='10066' card2='30031' />
 </combo>
 <combo> <!-- Lois + Scary Mask-->
 <card_id>15002</card_id>
 <cards card1='10007' card2='20024' />
 </combo>
+<combo> <!-- Lois Griffin + Scary Mask-->
+<card_id>15002</card_id>
+<cards card1='10066' card2='20024' />
+</combo>
 <combo> <!-- Lois + Protective Suits-->
 <card_id>15002</card_id>
 <cards card1='10007' card2='50025' />
+</combo>
+<combo> <!-- Lois Griffin + Protective Suits-->
+<card_id>15002</card_id>
+<cards card1='10066' card2='50025' />
 </combo>
 <combo> <!-- Lois + Bedtime Stories-->
 <card_id>15002</card_id>
 <cards card1='10007' card2='10047' />
 </combo>
+<combo> <!-- Lois Griffin + Bedtime Stories-->
+<card_id>15002</card_id>
+<cards card1='10066' card2='10047' />
+</combo>
 <combo> <!-- Lois + Pearl Bailey High School-->
 <card_id>15008</card_id>
 <cards card1='10007' card2='20011' />
+</combo>
+<combo> <!-- Lois Griffin + Pearl Bailey High School-->
+<card_id>15008</card_id>
+<cards card1='10066' card2='20011' />
 </combo>
 <combo> <!-- Lois + Tom Landry Middle School-->
 <card_id>15008</card_id>
 <cards card1='10007' card2='40011' />
 </combo>
+<combo> <!-- Lois Griffin + Tom Landry Middle School-->
+<card_id>15008</card_id>
+<cards card1='10066' card2='40011' />
+</combo>
 <combo> <!-- Lois + Wagstaff School-->
 <card_id>15008</card_id>
 <cards card1='10007' card2='30016' />
+</combo>
+<combo> <!-- Lois Griffin + Wagstaff School-->
+<card_id>15008</card_id>
+<cards card1='10066' card2='30016' />
 </combo>
 <combo> <!-- Lois + Mars University-->
 <card_id>15008</card_id>
 <cards card1='10007' card2='50007' />
 </combo>
+<combo> <!-- Lois Griffin + Mars University-->
+<card_id>15008</card_id>
+<cards card1='10066' card2='50007' />
+</combo>
 <combo> <!-- Lois + James Woods High School-->
 <card_id>15008</card_id>
 <cards card1='10007' card2='10013' />
+</combo>
+<combo> <!-- Lois Griffin + James Woods High School-->
+<card_id>15008</card_id>
+<cards card1='10066' card2='10013' />
 </combo>
 <combo> <!-- Lois + School-->
 <card_id>15008</card_id>
@@ -6231,33 +6856,65 @@
 <starting_combo>1</starting_combo>
 <start_ip_req>1</start_ip_req>
 </combo>
+<combo> <!-- Lois Griffin + School-->
+<card_id>15008</card_id>
+<cards card1='10066' card2='60001' />
+</combo>
 <combo> <!-- Lois + James Woods High School-->
 <card_id>15008</card_id>
 <cards card1='10007' card2='10058' />
+</combo>
+<combo> <!-- Lois Griffin + James Woods High School-->
+<card_id>15008</card_id>
+<cards card1='10066' card2='10058' />
 </combo>
 <combo> <!-- Lois + Crack-->
 <card_id>15017</card_id>
 <cards card1='10007' card2='20014' />
 </combo>
+<combo> <!-- Lois Griffin + Crack-->
+<card_id>15017</card_id>
+<cards card1='10066' card2='20014' />
+</combo>
 <combo> <!-- Lois + Painkillers-->
 <card_id>15017</card_id>
 <cards card1='10007' card2='30018' />
+</combo>
+<combo> <!-- Lois Griffin + Painkillers-->
+<card_id>15017</card_id>
+<cards card1='10066' card2='30018' />
 </combo>
 <combo> <!-- Lois + Manitoba Cigarettes-->
 <card_id>15017</card_id>
 <cards card1='10007' card2='40015' />
 </combo>
+<combo> <!-- Lois Griffin + Manitoba Cigarettes-->
+<card_id>15017</card_id>
+<cards card1='10066' card2='40015' />
+</combo>
 <combo> <!-- Lois + Dr. FlimFlam's Miracle Cream-->
 <card_id>15017</card_id>
 <cards card1='10007' card2='50015' />
+</combo>
+<combo> <!-- Lois Griffin + Dr. FlimFlam's Miracle Cream-->
+<card_id>15017</card_id>
+<cards card1='10066' card2='50015' />
 </combo>
 <combo> <!-- Lois + Toad Licking-->
 <card_id>15017</card_id>
 <cards card1='10007' card2='10003' />
 </combo>
+<combo> <!-- Lois Griffin + Toad Licking-->
+<card_id>15017</card_id>
+<cards card1='10066' card2='10003' />
+</combo>
 <combo> <!-- Lois + Toad Licking-->
 <card_id>15017</card_id>
 <cards card1='10007' card2='10063' />
+</combo>
+<combo> <!-- Lois Griffin + Toad Licking-->
+<card_id>15017</card_id>
+<cards card1='10066' card2='10063' />
 </combo>
 <combo> <!-- Lois + Drugs-->
 <card_id>15017</card_id>
@@ -6265,49 +6922,97 @@
 <starting_combo>1</starting_combo>
 <start_ip_req>1</start_ip_req>
 </combo>
+<combo> <!-- Lois Griffin + Drugs-->
+<card_id>15017</card_id>
+<cards card1='10066' card2='60004' />
+</combo>
 <combo> <!-- Lois + Butterscotch Cookies-->
 <card_id>15017</card_id>
 <cards card1='10007' card2='30037' />
+</combo>
+<combo> <!-- Lois Griffin + Butterscotch Cookies-->
+<card_id>15017</card_id>
+<cards card1='10066' card2='30037' />
 </combo>
 <combo> <!-- Lois + Million Dollar Beer Can-->
 <card_id>15037</card_id>
 <cards card1='10007' card2='40010' />
 </combo>
+<combo> <!-- Lois Griffin + Million Dollar Beer Can-->
+<card_id>15037</card_id>
+<cards card1='10066' card2='40010' />
+</combo>
 <combo> <!-- Lois + Lottery Winnings-->
 <card_id>15037</card_id>
 <cards card1='10007' card2='10015' />
+</combo>
+<combo> <!-- Lois Griffin + Lottery Winnings-->
+<card_id>15037</card_id>
+<cards card1='10066' card2='10015' />
 </combo>
 <combo> <!-- Lois + Golden Turd-->
 <card_id>15037</card_id>
 <cards card1='10007' card2='20008' />
 </combo>
+<combo> <!-- Lois Griffin + Golden Turd-->
+<card_id>15037</card_id>
+<cards card1='10066' card2='20008' />
+</combo>
 <combo> <!-- Lois + 20 Big Boys-->
 <card_id>15037</card_id>
 <cards card1='10007' card2='50013' />
+</combo>
+<combo> <!-- Lois Griffin + 20 Big Boys-->
+<card_id>15037</card_id>
+<cards card1='10066' card2='50013' />
 </combo>
 <combo> <!-- Lois + Money-->
 <card_id>15037</card_id>
 <cards card1='10007' card2='60002' />
 </combo>
+<combo> <!-- Lois Griffin + Money-->
+<card_id>15037</card_id>
+<cards card1='10066' card2='60002' />
+</combo>
 <combo> <!-- Lois + Bag of Nickels-->
 <card_id>15037</card_id>
 <cards card1='10007' card2='10031' />
+</combo>
+<combo> <!-- Lois Griffin + Bag of Nickels-->
+<card_id>15037</card_id>
+<cards card1='10066' card2='10031' />
 </combo>
 <combo> <!-- Lois + Pantry Guns-->
 <card_id>15059</card_id>
 <cards card1='10007' card2='20048' />
 </combo>
+<combo> <!-- Lois Griffin + Pantry Guns-->
+<card_id>15059</card_id>
+<cards card1='10066' card2='20048' />
+</combo>
 <combo> <!-- Lois + Fukinawa-->
 <card_id>15059</card_id>
 <cards card1='10007' card2='30014' />
+</combo>
+<combo> <!-- Lois Griffin + Fukinawa-->
+<card_id>15059</card_id>
+<cards card1='10066' card2='30014' />
 </combo>
 <combo> <!-- Lois + Rifle-->
 <card_id>15059</card_id>
 <cards card1='10007' card2='40020' />
 </combo>
+<combo> <!-- Lois Griffin + Rifle-->
+<card_id>15059</card_id>
+<cards card1='10066' card2='40020' />
+</combo>
 <combo> <!-- Lois + Pantry Guns-->
 <card_id>15059</card_id>
 <cards card1='10007' card2='20019' />
+</combo>
+<combo> <!-- Lois Griffin + Pantry Guns-->
+<card_id>15059</card_id>
+<cards card1='10066' card2='20019' />
 </combo>
 <combo> <!-- Lois + Paintball with Guns-->
 <card_id>15059</card_id>
@@ -6315,41 +7020,73 @@
 <starting_combo>1</starting_combo>
 <start_ip_req>1</start_ip_req>
 </combo>
-<combo> <!-- Lois + Shovel-->
+<combo> <!-- Lois Griffin + Paintball with Guns-->
 <card_id>15059</card_id>
-<cards card1='10007' card2='10021' />
+<cards card1='10066' card2='10019' />
 </combo>
 <combo> <!-- Lois + Ray Gun-->
 <card_id>15059</card_id>
 <cards card1='10007' card2='50021' />
 </combo>
+<combo> <!-- Lois Griffin + Ray Gun-->
+<card_id>15059</card_id>
+<cards card1='10066' card2='50021' />
+</combo>
 <combo> <!-- Lois + Weapon-->
 <card_id>15059</card_id>
 <cards card1='10007' card2='60003' />
+</combo>
+<combo> <!-- Lois Griffin + Weapon-->
+<card_id>15059</card_id>
+<cards card1='10066' card2='60003' />
 </combo>
 <combo> <!-- Lois + Flare Gun-->
 <card_id>15059</card_id>
 <cards card1='10007' card2='30030' />
 </combo>
+<combo> <!-- Lois Griffin + Flare Gun-->
+<card_id>15059</card_id>
+<cards card1='10066' card2='30030' />
+</combo>
 <combo> <!-- Lois + Robot Santa-->
 <card_id>15059</card_id>
 <cards card1='10007' card2='50027' />
+</combo>
+<combo> <!-- Lois Griffin + Robot Santa-->
+<card_id>15059</card_id>
+<cards card1='10066' card2='50027' />
 </combo>
 <combo> <!-- Lois + A Gun for Christmas-->
 <card_id>15059</card_id>
 <cards card1='10007' card2='10036' />
 </combo>
+<combo> <!-- Lois Griffin + A Gun for Christmas-->
+<card_id>15059</card_id>
+<cards card1='10066' card2='10036' />
+</combo>
 <combo> <!-- Lois + Wrestling-->
 <card_id>15069</card_id>
 <cards card1='10007' card2='20013' />
+</combo>
+<combo> <!-- Lois Griffin + Wrestling-->
+<card_id>15069</card_id>
+<cards card1='10066' card2='20013' />
 </combo>
 <combo> <!-- Lois + Cougar Football Team-->
 <card_id>15069</card_id>
 <cards card1='10007' card2='40006' />
 </combo>
+<combo> <!-- Lois Griffin + Cougar Football Team-->
+<card_id>15069</card_id>
+<cards card1='10066' card2='40006' />
+</combo>
 <combo> <!-- Lois + Touchdown Dance-->
 <card_id>15069</card_id>
 <cards card1='10007' card2='10016' />
+</combo>
+<combo> <!-- Lois Griffin + Touchdown Dance-->
+<card_id>15069</card_id>
+<cards card1='10066' card2='10016' />
 </combo>
 <combo> <!-- Lois + Sports-->
 <card_id>15069</card_id>
@@ -6357,25 +7094,41 @@
 <starting_combo>1</starting_combo>
 <start_ip_req>1</start_ip_req>
 </combo>
+<combo> <!-- Lois Griffin + Sports-->
+<card_id>15069</card_id>
+<cards card1='10066' card2='60005' />
+</combo>
 <combo> <!-- Lois + Lady Wrestling-->
 <card_id>15069</card_id>
 <cards card1='10007' card2='10033' />
+</combo>
+<combo> <!-- Lois Griffin + Lady Wrestling-->
+<card_id>15069</card_id>
+<cards card1='10066' card2='10033' />
 </combo>
 <combo> <!-- Lois + Baseball-->
 <card_id>15070</card_id>
 <cards card1='10007' card2='30003' />
 </combo>
+<combo> <!-- Lois Griffin + Baseball-->
+<card_id>15070</card_id>
+<cards card1='10066' card2='30003' />
+</combo>
 <combo> <!-- Lois + Blernsball-->
 <card_id>15070</card_id>
 <cards card1='10007' card2='50014' />
+</combo>
+<combo> <!-- Lois Griffin + Blernsball-->
+<card_id>15070</card_id>
+<cards card1='10066' card2='50014' />
 </combo>
 <combo> <!-- Lois + The Stingers-->
 <card_id>15070</card_id>
 <cards card1='10007' card2='40031' />
 </combo>
-<combo> <!-- Lois + Quahog Asylum-->
-<card_id>15102</card_id>
-<cards card1='10007' card2='10023' />
+<combo> <!-- Lois Griffin + The Stingers-->
+<card_id>15070</card_id>
+<cards card1='10066' card2='40031' />
 </combo>
 <combo> <!-- Brian + Money Goat-->
 <card_id>15153</card_id>
@@ -7377,10 +8130,6 @@
 <card_id>35035</card_id>
 <cards card1='30005' card2='10019' />
 </combo>
-<combo> <!-- Tina + Shovel-->
-<card_id>35035</card_id>
-<cards card1='30005' card2='10021' />
-</combo>
 <combo> <!-- Tina + Weapon-->
 <card_id>35035</card_id>
 <cards card1='30005' card2='60003' />
@@ -7648,6 +8397,70 @@
 <combo> <!-- Tina + Aircraft-->
 <card_id>35001</card_id>
 <cards card1='30005' card2='60011' />
+</combo>
+<combo> <!-- Peggy + Prescription Weed-->
+<card_id>45136</card_id>
+<cards card1='40002' card2='20051' />
+</combo>
+<combo> <!-- Peggy + Prescription Weed-->
+<card_id>45136</card_id>
+<cards card1='1400001' card2='20051' />
+</combo>
+<combo> <!-- Peggy + Leon Petard-->
+<card_id>45136</card_id>
+<cards card1='40002' card2='40052' />
+</combo>
+<combo> <!-- Peggy + Leon Petard-->
+<card_id>45136</card_id>
+<cards card1='1400001' card2='40052' />
+</combo>
+<combo> <!-- Peggy + Hypnotoad-->
+<card_id>45136</card_id>
+<cards card1='40002' card2='50056' />
+</combo>
+<combo> <!-- Peggy + Hypnotoad-->
+<card_id>45136</card_id>
+<cards card1='1400001' card2='50056' />
+</combo>
+<combo> <!-- Peggy + Refreshing Crack-->
+<card_id>45136</card_id>
+<cards card1='40002' card2='50057' />
+</combo>
+<combo> <!-- Peggy + Refreshing Crack-->
+<card_id>45136</card_id>
+<cards card1='1400001' card2='50057' />
+</combo>
+<combo> <!-- Peggy + Baked Evil Monkey-->
+<card_id>45136</card_id>
+<cards card1='40002' card2='10064' />
+</combo>
+<combo> <!-- Peggy + Baked Evil Monkey-->
+<card_id>45136</card_id>
+<cards card1='1400001' card2='10064' />
+</combo>
+<combo> <!-- Peggy + Olive Addict-->
+<card_id>45136</card_id>
+<cards card1='40002' card2='10065' />
+</combo>
+<combo> <!-- Peggy + Olive Addict-->
+<card_id>45136</card_id>
+<cards card1='1400001' card2='10065' />
+</combo>
+<combo> <!-- Peggy + Chinchilla Addict Wayne-->
+<card_id>45136</card_id>
+<cards card1='40002' card2='30064' />
+</combo>
+<combo> <!-- Peggy + Chinchilla Addict Wayne-->
+<card_id>45136</card_id>
+<cards card1='1400001' card2='30064' />
+</combo>
+<combo> <!-- Peggy + Stems and Seeds-->
+<card_id>45136</card_id>
+<cards card1='40002' card2='40051' />
+</combo>
+<combo> <!-- Peggy + Stems and Seeds-->
+<card_id>45136</card_id>
+<cards card1='1400001' card2='40051' />
 </combo>
 <combo> <!-- Peggy + No Mercy Dojo-->
 <card_id>45135</card_id>
@@ -9145,14 +9958,6 @@
 <card_id>45042</card_id>
 <cards card1='1400001' card2='10019' />
 </combo>
-<combo> <!-- Peggy + Shovel-->
-<card_id>45042</card_id>
-<cards card1='40002' card2='10021' />
-</combo>
-<combo> <!-- Peggy + Shovel-->
-<card_id>45042</card_id>
-<cards card1='1400001' card2='10021' />
-</combo>
 <combo> <!-- Peggy + Weapon-->
 <card_id>45042</card_id>
 <cards card1='40002' card2='60003' />
@@ -9200,6 +10005,70 @@
 <combo> <!-- Peggy + Stan's Haunted House-->
 <card_id>45078</card_id>
 <cards card1='1400001' card2='20033' />
+</combo>
+<combo> <!-- Steve + Baked Evil Monkey-->
+<card_id>25152</card_id>
+<cards card1='20003' card2='10064' />
+</combo>
+<combo> <!-- Steve Smith + Baked Evil Monkey-->
+<card_id>25152</card_id>
+<cards card1='20026' card2='10064' />
+</combo>
+<combo> <!-- Steve + Olive Addict-->
+<card_id>25152</card_id>
+<cards card1='20003' card2='10065' />
+</combo>
+<combo> <!-- Steve Smith + Olive Addict-->
+<card_id>25152</card_id>
+<cards card1='20026' card2='10065' />
+</combo>
+<combo> <!-- Steve + Prescription Weed-->
+<card_id>25152</card_id>
+<cards card1='20003' card2='20051' />
+</combo>
+<combo> <!-- Steve Smith + Prescription Weed-->
+<card_id>25152</card_id>
+<cards card1='20026' card2='20051' />
+</combo>
+<combo> <!-- Steve + Chinchilla Addict Wayne-->
+<card_id>25152</card_id>
+<cards card1='20003' card2='30064' />
+</combo>
+<combo> <!-- Steve Smith + Chinchilla Addict Wayne-->
+<card_id>25152</card_id>
+<cards card1='20026' card2='30064' />
+</combo>
+<combo> <!-- Steve + Stems and Seeds-->
+<card_id>25152</card_id>
+<cards card1='20003' card2='40051' />
+</combo>
+<combo> <!-- Steve Smith + Stems and Seeds-->
+<card_id>25152</card_id>
+<cards card1='20026' card2='40051' />
+</combo>
+<combo> <!-- Steve + Leon Petard-->
+<card_id>25152</card_id>
+<cards card1='20003' card2='40052' />
+</combo>
+<combo> <!-- Steve Smith + Leon Petard-->
+<card_id>25152</card_id>
+<cards card1='20026' card2='40052' />
+</combo>
+<combo> <!-- Steve + Hypnotoad-->
+<card_id>25152</card_id>
+<cards card1='20003' card2='50056' />
+</combo>
+<combo> <!-- Steve Smith + Hypnotoad-->
+<card_id>25152</card_id>
+<cards card1='20026' card2='50056' />
+</combo>
+<combo> <!-- Steve + Refreshing Crack-->
+<card_id>25152</card_id>
+<cards card1='20003' card2='50057' />
+</combo>
+<combo> <!-- Steve Smith + Refreshing Crack-->
+<card_id>25152</card_id>
+<cards card1='20026' card2='50057' />
 </combo>
 <combo> <!-- Steve + No Mercy Dojo-->
 <card_id>25150</card_id>
@@ -10028,14 +10897,6 @@
 <combo> <!-- Steve Smith + Paintball with Guns-->
 <card_id>25028</card_id>
 <cards card1='20026' card2='10019' />
-</combo>
-<combo> <!-- Steve + Shovel-->
-<card_id>25028</card_id>
-<cards card1='20003' card2='10021' />
-</combo>
-<combo> <!-- Steve Smith + Shovel-->
-<card_id>25028</card_id>
-<cards card1='20026' card2='10021' />
 </combo>
 <combo> <!-- Steve + Ray Gun-->
 <card_id>25028</card_id>
@@ -11435,6 +12296,70 @@
 <card_id>25052</card_id>
 <cards card1='20027' card2='20037' />
 </combo>
+<combo> <!-- Klaus + Prescription Weed-->
+<card_id>25065</card_id>
+<cards card1='20009' card2='20051' />
+</combo>
+<combo> <!-- Klaus Heisler + Prescription Weed-->
+<card_id>25065</card_id>
+<cards card1='20027' card2='20051' />
+</combo>
+<combo> <!-- Klaus + Leon Petard-->
+<card_id>25065</card_id>
+<cards card1='20009' card2='40052' />
+</combo>
+<combo> <!-- Klaus Heisler + Leon Petard-->
+<card_id>25065</card_id>
+<cards card1='20027' card2='40052' />
+</combo>
+<combo> <!-- Klaus + Hypnotoad-->
+<card_id>25065</card_id>
+<cards card1='20009' card2='50056' />
+</combo>
+<combo> <!-- Klaus Heisler + Hypnotoad-->
+<card_id>25065</card_id>
+<cards card1='20027' card2='50056' />
+</combo>
+<combo> <!-- Klaus + Refreshing Crack-->
+<card_id>25065</card_id>
+<cards card1='20009' card2='50057' />
+</combo>
+<combo> <!-- Klaus Heisler + Refreshing Crack-->
+<card_id>25065</card_id>
+<cards card1='20027' card2='50057' />
+</combo>
+<combo> <!-- Klaus + Baked Evil Monkey-->
+<card_id>25065</card_id>
+<cards card1='20009' card2='10064' />
+</combo>
+<combo> <!-- Klaus Heisler + Baked Evil Monkey-->
+<card_id>25065</card_id>
+<cards card1='20027' card2='10064' />
+</combo>
+<combo> <!-- Klaus + Olive Addict-->
+<card_id>25065</card_id>
+<cards card1='20009' card2='10065' />
+</combo>
+<combo> <!-- Klaus Heisler + Olive Addict-->
+<card_id>25065</card_id>
+<cards card1='20027' card2='10065' />
+</combo>
+<combo> <!-- Klaus + Chinchilla Addict Wayne-->
+<card_id>25065</card_id>
+<cards card1='20009' card2='30064' />
+</combo>
+<combo> <!-- Klaus Heisler + Chinchilla Addict Wayne-->
+<card_id>25065</card_id>
+<cards card1='20027' card2='30064' />
+</combo>
+<combo> <!-- Klaus + Stems and Seeds-->
+<card_id>25065</card_id>
+<cards card1='20009' card2='40051' />
+</combo>
+<combo> <!-- Klaus Heisler + Stems and Seeds-->
+<card_id>25065</card_id>
+<cards card1='20027' card2='40051' />
+</combo>
 <combo> <!-- Klaus + Crack-->
 <card_id>25065</card_id>
 <cards card1='20009' card2='20014' />
@@ -11614,6 +12539,118 @@
 <combo> <!-- Klaus Heisler + Jelly Bean Schnapps-->
 <card_id>25051</card_id>
 <cards card1='20027' card2='30044' />
+</combo>
+<combo> <!-- Hayley + Baked Evil Monkey-->
+<card_id>25151</card_id>
+<cards card1='20004' card2='10064' />
+</combo>
+<combo> <!-- Hayley + Baked Evil Monkey-->
+<card_id>25151</card_id>
+<cards card1='1200003' card2='10064' />
+</combo>
+<combo> <!-- Hayley + Olive Addict-->
+<card_id>25151</card_id>
+<cards card1='20004' card2='10065' />
+</combo>
+<combo> <!-- Hayley + Olive Addict-->
+<card_id>25151</card_id>
+<cards card1='1200003' card2='10065' />
+</combo>
+<combo> <!-- Hayley + Prescription Weed-->
+<card_id>25151</card_id>
+<cards card1='20004' card2='20051' />
+</combo>
+<combo> <!-- Hayley + Prescription Weed-->
+<card_id>25151</card_id>
+<cards card1='1200003' card2='20051' />
+</combo>
+<combo> <!-- Hayley + Chinchilla Addict Wayne-->
+<card_id>25151</card_id>
+<cards card1='20004' card2='30064' />
+</combo>
+<combo> <!-- Hayley + Chinchilla Addict Wayne-->
+<card_id>25151</card_id>
+<cards card1='1200003' card2='30064' />
+</combo>
+<combo> <!-- Hayley + Stems and Seeds-->
+<card_id>25151</card_id>
+<cards card1='20004' card2='40051' />
+</combo>
+<combo> <!-- Hayley + Stems and Seeds-->
+<card_id>25151</card_id>
+<cards card1='1200003' card2='40051' />
+</combo>
+<combo> <!-- Hayley + Leon Petard-->
+<card_id>25151</card_id>
+<cards card1='20004' card2='40052' />
+</combo>
+<combo> <!-- Hayley + Leon Petard-->
+<card_id>25151</card_id>
+<cards card1='1200003' card2='40052' />
+</combo>
+<combo> <!-- Hayley + Hypnotoad-->
+<card_id>25151</card_id>
+<cards card1='20004' card2='50056' />
+</combo>
+<combo> <!-- Hayley + Hypnotoad-->
+<card_id>25151</card_id>
+<cards card1='1200003' card2='50056' />
+</combo>
+<combo> <!-- Hayley + Refreshing Crack-->
+<card_id>25151</card_id>
+<cards card1='20004' card2='50057' />
+</combo>
+<combo> <!-- Hayley + Refreshing Crack-->
+<card_id>25151</card_id>
+<cards card1='1200003' card2='50057' />
+</combo>
+<combo> <!-- Hayley + Toad Licking-->
+<card_id>25151</card_id>
+<cards card1='20004' card2='10063' />
+</combo>
+<combo> <!-- Hayley + Toad Licking-->
+<card_id>25151</card_id>
+<cards card1='1200003' card2='10063' />
+</combo>
+<combo> <!-- Hayley + Toad Licking-->
+<card_id>25151</card_id>
+<cards card1='20004' card2='10003' />
+</combo>
+<combo> <!-- Hayley + Toad Licking-->
+<card_id>25151</card_id>
+<cards card1='1200003' card2='10003' />
+</combo>
+<combo> <!-- Hayley + Crack-->
+<card_id>25151</card_id>
+<cards card1='20004' card2='20014' />
+</combo>
+<combo> <!-- Hayley + Crack-->
+<card_id>25151</card_id>
+<cards card1='1200003' card2='20014' />
+</combo>
+<combo> <!-- Hayley + Painkillers-->
+<card_id>25151</card_id>
+<cards card1='20004' card2='30018' />
+</combo>
+<combo> <!-- Hayley + Painkillers-->
+<card_id>25151</card_id>
+<cards card1='1200003' card2='30018' />
+</combo>
+<combo> <!-- Hayley + Butterscotch Cookies-->
+<card_id>25151</card_id>
+<cards card1='20004' card2='30037' />
+</combo>
+<combo> <!-- Hayley + Butterscotch Cookies-->
+<card_id>25151</card_id>
+<cards card1='1200003' card2='30037' />
+</combo>
+<combo> <!-- Hayley + Manitoba Cigarettes-->
+<card_id>25151</card_id>
+<cards card1='20004' card2='40015' />
+</combo>
+<combo> <!-- Hayley + Manitoba Cigarettes-->
+<card_id>25151</card_id>
+<cards card1='1200003' card2='40015' />
 </combo>
 <combo> <!-- Hayley + No Mercy Dojo-->
 <card_id>25148</card_id>
@@ -14023,6 +15060,70 @@
 <card_id>25017</card_id>
 <cards card1='1200001' card2='60011' />
 </combo>
+<combo> <!-- Stan + Prescription Weed-->
+<card_id>25040</card_id>
+<cards card1='20002' card2='20051' />
+</combo>
+<combo> <!-- Stan + Prescription Weed-->
+<card_id>25040</card_id>
+<cards card1='1200001' card2='20051' />
+</combo>
+<combo> <!-- Stan + Leon Petard-->
+<card_id>25040</card_id>
+<cards card1='20002' card2='40052' />
+</combo>
+<combo> <!-- Stan + Leon Petard-->
+<card_id>25040</card_id>
+<cards card1='1200001' card2='40052' />
+</combo>
+<combo> <!-- Stan + Hypnotoad-->
+<card_id>25040</card_id>
+<cards card1='20002' card2='50056' />
+</combo>
+<combo> <!-- Stan + Hypnotoad-->
+<card_id>25040</card_id>
+<cards card1='1200001' card2='50056' />
+</combo>
+<combo> <!-- Stan + Refreshing Crack-->
+<card_id>25040</card_id>
+<cards card1='20002' card2='50057' />
+</combo>
+<combo> <!-- Stan + Refreshing Crack-->
+<card_id>25040</card_id>
+<cards card1='1200001' card2='50057' />
+</combo>
+<combo> <!-- Stan + Baked Evil Monkey-->
+<card_id>25040</card_id>
+<cards card1='20002' card2='10064' />
+</combo>
+<combo> <!-- Stan + Baked Evil Monkey-->
+<card_id>25040</card_id>
+<cards card1='1200001' card2='10064' />
+</combo>
+<combo> <!-- Stan + Olive Addict-->
+<card_id>25040</card_id>
+<cards card1='20002' card2='10065' />
+</combo>
+<combo> <!-- Stan + Olive Addict-->
+<card_id>25040</card_id>
+<cards card1='1200001' card2='10065' />
+</combo>
+<combo> <!-- Stan + Chinchilla Addict Wayne-->
+<card_id>25040</card_id>
+<cards card1='20002' card2='30064' />
+</combo>
+<combo> <!-- Stan + Chinchilla Addict Wayne-->
+<card_id>25040</card_id>
+<cards card1='1200001' card2='30064' />
+</combo>
+<combo> <!-- Stan + Stems and Seeds-->
+<card_id>25040</card_id>
+<cards card1='20002' card2='40051' />
+</combo>
+<combo> <!-- Stan + Stems and Seeds-->
+<card_id>25040</card_id>
+<cards card1='1200001' card2='40051' />
+</combo>
 <combo> <!-- Stan + Crack-->
 <card_id>25040</card_id>
 <cards card1='20002' card2='20014' />
@@ -14880,6 +15981,70 @@
 <combo> <!-- Bullock + Lo Brau-->
 <card_id>25077</card_id>
 <cards card1='1200002' card2='50031' />
+</combo>
+<combo> <!-- Bullock + Prescription Weed-->
+<card_id>25078</card_id>
+<cards card1='20023' card2='20051' />
+</combo>
+<combo> <!-- Bullock + Prescription Weed-->
+<card_id>25078</card_id>
+<cards card1='1200002' card2='20051' />
+</combo>
+<combo> <!-- Bullock + Leon Petard-->
+<card_id>25078</card_id>
+<cards card1='20023' card2='40052' />
+</combo>
+<combo> <!-- Bullock + Leon Petard-->
+<card_id>25078</card_id>
+<cards card1='1200002' card2='40052' />
+</combo>
+<combo> <!-- Bullock + Hypnotoad-->
+<card_id>25078</card_id>
+<cards card1='20023' card2='50056' />
+</combo>
+<combo> <!-- Bullock + Hypnotoad-->
+<card_id>25078</card_id>
+<cards card1='1200002' card2='50056' />
+</combo>
+<combo> <!-- Bullock + Refreshing Crack-->
+<card_id>25078</card_id>
+<cards card1='20023' card2='50057' />
+</combo>
+<combo> <!-- Bullock + Refreshing Crack-->
+<card_id>25078</card_id>
+<cards card1='1200002' card2='50057' />
+</combo>
+<combo> <!-- Bullock + Baked Evil Monkey-->
+<card_id>25078</card_id>
+<cards card1='20023' card2='10064' />
+</combo>
+<combo> <!-- Bullock + Baked Evil Monkey-->
+<card_id>25078</card_id>
+<cards card1='1200002' card2='10064' />
+</combo>
+<combo> <!-- Bullock + Olive Addict-->
+<card_id>25078</card_id>
+<cards card1='20023' card2='10065' />
+</combo>
+<combo> <!-- Bullock + Olive Addict-->
+<card_id>25078</card_id>
+<cards card1='1200002' card2='10065' />
+</combo>
+<combo> <!-- Bullock + Chinchilla Addict Wayne-->
+<card_id>25078</card_id>
+<cards card1='20023' card2='30064' />
+</combo>
+<combo> <!-- Bullock + Chinchilla Addict Wayne-->
+<card_id>25078</card_id>
+<cards card1='1200002' card2='30064' />
+</combo>
+<combo> <!-- Bullock + Stems and Seeds-->
+<card_id>25078</card_id>
+<cards card1='20023' card2='40051' />
+</combo>
+<combo> <!-- Bullock + Stems and Seeds-->
+<card_id>25078</card_id>
+<cards card1='1200002' card2='40051' />
 </combo>
 <combo> <!-- Bullock + Crack-->
 <card_id>25078</card_id>
@@ -15751,10 +16916,6 @@
 <card_id>25026</card_id>
 <cards card1='20001' card2='10019' />
 </combo>
-<combo> <!-- Roger + Shovel-->
-<card_id>25026</card_id>
-<cards card1='20001' card2='10021' />
-</combo>
 <combo> <!-- Roger + Pantry Guns-->
 <card_id>25026</card_id>
 <cards card1='20001' card2='20048' />
@@ -15846,6 +17007,38 @@
 <combo> <!-- Roger + Food Truck-->
 <card_id>25050</card_id>
 <cards card1='20001' card2='30020' />
+</combo>
+<combo> <!-- Roger + Prescription Weed-->
+<card_id>25012</card_id>
+<cards card1='20001' card2='20051' />
+</combo>
+<combo> <!-- Roger + Leon Petard-->
+<card_id>25012</card_id>
+<cards card1='20001' card2='40052' />
+</combo>
+<combo> <!-- Roger + Hypnotoad-->
+<card_id>25012</card_id>
+<cards card1='20001' card2='50056' />
+</combo>
+<combo> <!-- Roger + Refreshing Crack-->
+<card_id>25012</card_id>
+<cards card1='20001' card2='50057' />
+</combo>
+<combo> <!-- Roger + Baked Evil Monkey-->
+<card_id>25012</card_id>
+<cards card1='20001' card2='10064' />
+</combo>
+<combo> <!-- Roger + Olive Addict-->
+<card_id>25012</card_id>
+<cards card1='20001' card2='10065' />
+</combo>
+<combo> <!-- Roger + Chinchilla Addict Wayne-->
+<card_id>25012</card_id>
+<cards card1='20001' card2='30064' />
+</combo>
+<combo> <!-- Roger + Stems and Seeds-->
+<card_id>25012</card_id>
+<cards card1='20001' card2='40051' />
 </combo>
 <combo> <!-- Roger + Crack-->
 <card_id>25012</card_id>
@@ -16267,13 +17460,41 @@
 <card_id>25027</card_id>
 <cards card1='20007' card2='30014' />
 </combo>
-<combo> <!-- Francine + Shovel-->
-<card_id>25027</card_id>
-<cards card1='20007' card2='10021' />
-</combo>
 <combo> <!-- Francine + Weapon-->
 <card_id>25027</card_id>
 <cards card1='20007' card2='60003' />
+</combo>
+<combo> <!-- Francine + Prescription Weed-->
+<card_id>25008</card_id>
+<cards card1='20007' card2='20051' />
+</combo>
+<combo> <!-- Francine + Leon Petard-->
+<card_id>25008</card_id>
+<cards card1='20007' card2='40052' />
+</combo>
+<combo> <!-- Francine + Hypnotoad-->
+<card_id>25008</card_id>
+<cards card1='20007' card2='50056' />
+</combo>
+<combo> <!-- Francine + Refreshing Crack-->
+<card_id>25008</card_id>
+<cards card1='20007' card2='50057' />
+</combo>
+<combo> <!-- Francine + Baked Evil Monkey-->
+<card_id>25008</card_id>
+<cards card1='20007' card2='10064' />
+</combo>
+<combo> <!-- Francine + Olive Addict-->
+<card_id>25008</card_id>
+<cards card1='20007' card2='10065' />
+</combo>
+<combo> <!-- Francine + Chinchilla Addict Wayne-->
+<card_id>25008</card_id>
+<cards card1='20007' card2='30064' />
+</combo>
+<combo> <!-- Francine + Stems and Seeds-->
+<card_id>25008</card_id>
+<cards card1='20007' card2='40051' />
 </combo>
 <combo> <!-- Francine + Crack-->
 <card_id>25008</card_id>
@@ -16402,6 +17623,118 @@
 <combo> <!-- Francine + Turkey Trot-->
 <card_id>25048</card_id>
 <cards card1='20007' card2='30033' />
+</combo>
+<combo> <!-- Teddy + Prescription Weed-->
+<card_id>35150</card_id>
+<cards card1='30004' card2='20051' />
+</combo>
+<combo> <!-- Teddy + Prescription Weed-->
+<card_id>35150</card_id>
+<cards card1='1300003' card2='20051' />
+</combo>
+<combo> <!-- Teddy + Leon Petard-->
+<card_id>35150</card_id>
+<cards card1='30004' card2='40052' />
+</combo>
+<combo> <!-- Teddy + Leon Petard-->
+<card_id>35150</card_id>
+<cards card1='1300003' card2='40052' />
+</combo>
+<combo> <!-- Teddy + Hypnotoad-->
+<card_id>35150</card_id>
+<cards card1='30004' card2='50056' />
+</combo>
+<combo> <!-- Teddy + Hypnotoad-->
+<card_id>35150</card_id>
+<cards card1='1300003' card2='50056' />
+</combo>
+<combo> <!-- Teddy + Refreshing Crack-->
+<card_id>35150</card_id>
+<cards card1='30004' card2='50057' />
+</combo>
+<combo> <!-- Teddy + Refreshing Crack-->
+<card_id>35150</card_id>
+<cards card1='1300003' card2='50057' />
+</combo>
+<combo> <!-- Teddy + Baked Evil Monkey-->
+<card_id>35150</card_id>
+<cards card1='30004' card2='10064' />
+</combo>
+<combo> <!-- Teddy + Baked Evil Monkey-->
+<card_id>35150</card_id>
+<cards card1='1300003' card2='10064' />
+</combo>
+<combo> <!-- Teddy + Olive Addict-->
+<card_id>35150</card_id>
+<cards card1='30004' card2='10065' />
+</combo>
+<combo> <!-- Teddy + Olive Addict-->
+<card_id>35150</card_id>
+<cards card1='1300003' card2='10065' />
+</combo>
+<combo> <!-- Teddy + Chinchilla Addict Wayne-->
+<card_id>35150</card_id>
+<cards card1='30004' card2='30064' />
+</combo>
+<combo> <!-- Teddy + Chinchilla Addict Wayne-->
+<card_id>35150</card_id>
+<cards card1='1300003' card2='30064' />
+</combo>
+<combo> <!-- Teddy + Stems and Seeds-->
+<card_id>35150</card_id>
+<cards card1='30004' card2='40051' />
+</combo>
+<combo> <!-- Teddy + Stems and Seeds-->
+<card_id>35150</card_id>
+<cards card1='1300003' card2='40051' />
+</combo>
+<combo> <!-- Teddy + Toad Licking-->
+<card_id>35150</card_id>
+<cards card1='30004' card2='10063' />
+</combo>
+<combo> <!-- Teddy + Toad Licking-->
+<card_id>35150</card_id>
+<cards card1='1300003' card2='10063' />
+</combo>
+<combo> <!-- Teddy + Toad Licking-->
+<card_id>35150</card_id>
+<cards card1='30004' card2='10003' />
+</combo>
+<combo> <!-- Teddy + Toad Licking-->
+<card_id>35150</card_id>
+<cards card1='1300003' card2='10003' />
+</combo>
+<combo> <!-- Teddy + Crack-->
+<card_id>35150</card_id>
+<cards card1='30004' card2='20014' />
+</combo>
+<combo> <!-- Teddy + Crack-->
+<card_id>35150</card_id>
+<cards card1='1300003' card2='20014' />
+</combo>
+<combo> <!-- Teddy + Painkillers-->
+<card_id>35150</card_id>
+<cards card1='30004' card2='30018' />
+</combo>
+<combo> <!-- Teddy + Painkillers-->
+<card_id>35150</card_id>
+<cards card1='1300003' card2='30018' />
+</combo>
+<combo> <!-- Teddy + Butterscotch Cookies-->
+<card_id>35150</card_id>
+<cards card1='30004' card2='30037' />
+</combo>
+<combo> <!-- Teddy + Butterscotch Cookies-->
+<card_id>35150</card_id>
+<cards card1='1300003' card2='30037' />
+</combo>
+<combo> <!-- Teddy + Manitoba Cigarettes-->
+<card_id>35150</card_id>
+<cards card1='30004' card2='40015' />
+</combo>
+<combo> <!-- Teddy + Manitoba Cigarettes-->
+<card_id>35150</card_id>
+<cards card1='1300003' card2='40015' />
 </combo>
 <combo> <!-- Teddy + No Mercy Dojo-->
 <card_id>35147</card_id>
@@ -16874,14 +18207,6 @@
 <combo> <!-- Teddy + Paintball with Guns-->
 <card_id>35078</card_id>
 <cards card1='1300003' card2='10019' />
-</combo>
-<combo> <!-- Teddy + Shovel-->
-<card_id>35078</card_id>
-<cards card1='30004' card2='10021' />
-</combo>
-<combo> <!-- Teddy + Shovel-->
-<card_id>35078</card_id>
-<cards card1='1300003' card2='10021' />
 </combo>
 <combo> <!-- Teddy + Pantry Guns-->
 <card_id>35078</card_id>
@@ -17396,6 +18721,70 @@
 <combo> <!-- Teddy + Slurm-->
 <card_id>35056</card_id>
 <cards card1='1300003' card2='50010' />
+</combo>
+<combo> <!-- Gene + Prescription Weed-->
+<card_id>35149</card_id>
+<cards card1='30007' card2='20051' />
+</combo>
+<combo> <!-- Eugene Belcher + Prescription Weed-->
+<card_id>35149</card_id>
+<cards card1='30048' card2='20051' />
+</combo>
+<combo> <!-- Gene + Leon Petard-->
+<card_id>35149</card_id>
+<cards card1='30007' card2='40052' />
+</combo>
+<combo> <!-- Eugene Belcher + Leon Petard-->
+<card_id>35149</card_id>
+<cards card1='30048' card2='40052' />
+</combo>
+<combo> <!-- Gene + Hypnotoad-->
+<card_id>35149</card_id>
+<cards card1='30007' card2='50056' />
+</combo>
+<combo> <!-- Eugene Belcher + Hypnotoad-->
+<card_id>35149</card_id>
+<cards card1='30048' card2='50056' />
+</combo>
+<combo> <!-- Gene + Refreshing Crack-->
+<card_id>35149</card_id>
+<cards card1='30007' card2='50057' />
+</combo>
+<combo> <!-- Eugene Belcher + Refreshing Crack-->
+<card_id>35149</card_id>
+<cards card1='30048' card2='50057' />
+</combo>
+<combo> <!-- Gene + Baked Evil Monkey-->
+<card_id>35149</card_id>
+<cards card1='30007' card2='10064' />
+</combo>
+<combo> <!-- Eugene Belcher + Baked Evil Monkey-->
+<card_id>35149</card_id>
+<cards card1='30048' card2='10064' />
+</combo>
+<combo> <!-- Gene + Olive Addict-->
+<card_id>35149</card_id>
+<cards card1='30007' card2='10065' />
+</combo>
+<combo> <!-- Eugene Belcher + Olive Addict-->
+<card_id>35149</card_id>
+<cards card1='30048' card2='10065' />
+</combo>
+<combo> <!-- Gene + Chinchilla Addict Wayne-->
+<card_id>35149</card_id>
+<cards card1='30007' card2='30064' />
+</combo>
+<combo> <!-- Eugene Belcher + Chinchilla Addict Wayne-->
+<card_id>35149</card_id>
+<cards card1='30048' card2='30064' />
+</combo>
+<combo> <!-- Gene + Stems and Seeds-->
+<card_id>35149</card_id>
+<cards card1='30007' card2='40051' />
+</combo>
+<combo> <!-- Eugene Belcher + Stems and Seeds-->
+<card_id>35149</card_id>
+<cards card1='30048' card2='40051' />
 </combo>
 <combo> <!-- Gene + Push Ups-->
 <card_id>35143</card_id>
@@ -20101,14 +21490,6 @@
 <card_id>35045</card_id>
 <cards card1='30035' card2='10019' />
 </combo>
-<combo> <!-- Linda + Shovel-->
-<card_id>35045</card_id>
-<cards card1='30006' card2='10021' />
-</combo>
-<combo> <!-- Linda Belcher + Shovel-->
-<card_id>35045</card_id>
-<cards card1='30035' card2='10021' />
-</combo>
 <combo> <!-- Linda + Weapon-->
 <card_id>35045</card_id>
 <cards card1='30006' card2='60003' />
@@ -21295,6 +22676,86 @@
 <card_id>35018</card_id>
 <cards card1='1300002' card2='10058' />
 </combo>
+<combo> <!-- Bob + Prescription Weed-->
+<card_id>35023</card_id>
+<cards card1='30001' card2='20051' />
+</combo>
+<combo> <!-- Bob + Prescription Weed-->
+<card_id>35023</card_id>
+<cards card1='1300002' card2='20051' />
+</combo>
+<combo> <!-- Bob + Leon Petard-->
+<card_id>35023</card_id>
+<cards card1='30001' card2='40052' />
+</combo>
+<combo> <!-- Bob + Leon Petard-->
+<card_id>35023</card_id>
+<cards card1='1300002' card2='40052' />
+</combo>
+<combo> <!-- Bob + Hypnotoad-->
+<card_id>35023</card_id>
+<cards card1='30001' card2='50056' />
+</combo>
+<combo> <!-- Bob + Hypnotoad-->
+<card_id>35023</card_id>
+<cards card1='1300002' card2='50056' />
+</combo>
+<combo> <!-- Bob + Refreshing Crack-->
+<card_id>35023</card_id>
+<cards card1='30001' card2='50057' />
+</combo>
+<combo> <!-- Bob + Refreshing Crack-->
+<card_id>35023</card_id>
+<cards card1='1300002' card2='50057' />
+</combo>
+<combo> <!-- Bob + Toad Licking-->
+<card_id>35023</card_id>
+<cards card1='30001' card2='10063' />
+</combo>
+<combo> <!-- Bob + Toad Licking-->
+<card_id>35023</card_id>
+<cards card1='1300002' card2='10063' />
+</combo>
+<combo> <!-- Bob + Toad Licking-->
+<card_id>35023</card_id>
+<cards card1='30001' card2='10003' />
+</combo>
+<combo> <!-- Bob + Toad Licking-->
+<card_id>35023</card_id>
+<cards card1='1300002' card2='10003' />
+</combo>
+<combo> <!-- Bob + Baked Evil Monkey-->
+<card_id>35023</card_id>
+<cards card1='30001' card2='10064' />
+</combo>
+<combo> <!-- Bob + Baked Evil Monkey-->
+<card_id>35023</card_id>
+<cards card1='1300002' card2='10064' />
+</combo>
+<combo> <!-- Bob + Olive Addict-->
+<card_id>35023</card_id>
+<cards card1='30001' card2='10065' />
+</combo>
+<combo> <!-- Bob + Olive Addict-->
+<card_id>35023</card_id>
+<cards card1='1300002' card2='10065' />
+</combo>
+<combo> <!-- Bob + Chinchilla Addict Wayne-->
+<card_id>35023</card_id>
+<cards card1='30001' card2='30064' />
+</combo>
+<combo> <!-- Bob + Chinchilla Addict Wayne-->
+<card_id>35023</card_id>
+<cards card1='1300002' card2='30064' />
+</combo>
+<combo> <!-- Bob + Stems and Seeds-->
+<card_id>35023</card_id>
+<cards card1='30001' card2='40051' />
+</combo>
+<combo> <!-- Bob + Stems and Seeds-->
+<card_id>35023</card_id>
+<cards card1='1300002' card2='40051' />
+</combo>
 <combo> <!-- Bob + Pro-Pain!-->
 <card_id>35023</card_id>
 <cards card1='30001' card2='40014' />
@@ -21678,6 +23139,118 @@
 <combo> <!-- Bob + Aircraft-->
 <card_id>35004</card_id>
 <cards card1='1300002' card2='60011' />
+</combo>
+<combo> <!-- Louise + Baked Evil Monkey-->
+<card_id>35151</card_id>
+<cards card1='30002' card2='10064' />
+</combo>
+<combo> <!-- Louise + Baked Evil Monkey-->
+<card_id>35151</card_id>
+<cards card1='1300001' card2='10064' />
+</combo>
+<combo> <!-- Louise + Olive Addict-->
+<card_id>35151</card_id>
+<cards card1='30002' card2='10065' />
+</combo>
+<combo> <!-- Louise + Olive Addict-->
+<card_id>35151</card_id>
+<cards card1='1300001' card2='10065' />
+</combo>
+<combo> <!-- Louise + Prescription Weed-->
+<card_id>35151</card_id>
+<cards card1='30002' card2='20051' />
+</combo>
+<combo> <!-- Louise + Prescription Weed-->
+<card_id>35151</card_id>
+<cards card1='1300001' card2='20051' />
+</combo>
+<combo> <!-- Louise + Chinchilla Addict Wayne-->
+<card_id>35151</card_id>
+<cards card1='30002' card2='30064' />
+</combo>
+<combo> <!-- Louise + Chinchilla Addict Wayne-->
+<card_id>35151</card_id>
+<cards card1='1300001' card2='30064' />
+</combo>
+<combo> <!-- Louise + Stems and Seeds-->
+<card_id>35151</card_id>
+<cards card1='30002' card2='40051' />
+</combo>
+<combo> <!-- Louise + Stems and Seeds-->
+<card_id>35151</card_id>
+<cards card1='1300001' card2='40051' />
+</combo>
+<combo> <!-- Louise + Leon Petard-->
+<card_id>35151</card_id>
+<cards card1='30002' card2='40052' />
+</combo>
+<combo> <!-- Louise + Leon Petard-->
+<card_id>35151</card_id>
+<cards card1='1300001' card2='40052' />
+</combo>
+<combo> <!-- Louise + Hypnotoad-->
+<card_id>35151</card_id>
+<cards card1='30002' card2='50056' />
+</combo>
+<combo> <!-- Louise + Hypnotoad-->
+<card_id>35151</card_id>
+<cards card1='1300001' card2='50056' />
+</combo>
+<combo> <!-- Louise + Refreshing Crack-->
+<card_id>35151</card_id>
+<cards card1='30002' card2='50057' />
+</combo>
+<combo> <!-- Louise + Refreshing Crack-->
+<card_id>35151</card_id>
+<cards card1='1300001' card2='50057' />
+</combo>
+<combo> <!-- Louise + Toad Licking-->
+<card_id>35151</card_id>
+<cards card1='30002' card2='10063' />
+</combo>
+<combo> <!-- Louise + Toad Licking-->
+<card_id>35151</card_id>
+<cards card1='1300001' card2='10063' />
+</combo>
+<combo> <!-- Louise + Toad Licking-->
+<card_id>35151</card_id>
+<cards card1='30002' card2='10003' />
+</combo>
+<combo> <!-- Louise + Toad Licking-->
+<card_id>35151</card_id>
+<cards card1='1300001' card2='10003' />
+</combo>
+<combo> <!-- Louise + Crack-->
+<card_id>35151</card_id>
+<cards card1='30002' card2='20014' />
+</combo>
+<combo> <!-- Louise + Crack-->
+<card_id>35151</card_id>
+<cards card1='1300001' card2='20014' />
+</combo>
+<combo> <!-- Louise + Painkillers-->
+<card_id>35151</card_id>
+<cards card1='30002' card2='30018' />
+</combo>
+<combo> <!-- Louise + Painkillers-->
+<card_id>35151</card_id>
+<cards card1='1300001' card2='30018' />
+</combo>
+<combo> <!-- Louise + Butterscotch Cookies-->
+<card_id>35151</card_id>
+<cards card1='30002' card2='30037' />
+</combo>
+<combo> <!-- Louise + Butterscotch Cookies-->
+<card_id>35151</card_id>
+<cards card1='1300001' card2='30037' />
+</combo>
+<combo> <!-- Louise + Manitoba Cigarettes-->
+<card_id>35151</card_id>
+<cards card1='30002' card2='40015' />
+</combo>
+<combo> <!-- Louise + Manitoba Cigarettes-->
+<card_id>35151</card_id>
+<cards card1='1300001' card2='40015' />
 </combo>
 <combo> <!-- Louise + Boyz 4 Now-->
 <card_id>35138</card_id>
@@ -23167,14 +24740,6 @@
 <card_id>35046</card_id>
 <cards card1='1300001' card2='10019' />
 </combo>
-<combo> <!-- Louise + Shovel-->
-<card_id>35046</card_id>
-<cards card1='30002' card2='10021' />
-</combo>
-<combo> <!-- Louise + Shovel-->
-<card_id>35046</card_id>
-<cards card1='1300001' card2='10021' />
-</combo>
 <combo> <!-- Louise + Weapon-->
 <card_id>35046</card_id>
 <cards card1='30002' card2='60003' />
@@ -23403,10 +24968,6 @@
 <card_id>35053</card_id>
 <cards card1='30012' card2='10019' />
 </combo>
-<combo> <!-- Mort + Shovel-->
-<card_id>35053</card_id>
-<cards card1='30012' card2='10021' />
-</combo>
 <combo> <!-- Mort + Weapon-->
 <card_id>35053</card_id>
 <cards card1='30012' card2='60003' />
@@ -23498,6 +25059,70 @@
 <combo> <!-- Mort + Golf Ball Escape-->
 <card_id>35064</card_id>
 <cards card1='30012' card2='30036' />
+</combo>
+<combo> <!-- Hank + Prescription Weed-->
+<card_id>45136</card_id>
+<cards card1='40001' card2='20051' />
+</combo>
+<combo> <!-- Hank Hill + Prescription Weed-->
+<card_id>45136</card_id>
+<cards card1='40027' card2='20051' />
+</combo>
+<combo> <!-- Hank + Leon Petard-->
+<card_id>45136</card_id>
+<cards card1='40001' card2='40052' />
+</combo>
+<combo> <!-- Hank Hill + Leon Petard-->
+<card_id>45136</card_id>
+<cards card1='40027' card2='40052' />
+</combo>
+<combo> <!-- Hank + Hypnotoad-->
+<card_id>45136</card_id>
+<cards card1='40001' card2='50056' />
+</combo>
+<combo> <!-- Hank Hill + Hypnotoad-->
+<card_id>45136</card_id>
+<cards card1='40027' card2='50056' />
+</combo>
+<combo> <!-- Hank + Refreshing Crack-->
+<card_id>45136</card_id>
+<cards card1='40001' card2='50057' />
+</combo>
+<combo> <!-- Hank Hill + Refreshing Crack-->
+<card_id>45136</card_id>
+<cards card1='40027' card2='50057' />
+</combo>
+<combo> <!-- Hank + Baked Evil Monkey-->
+<card_id>45136</card_id>
+<cards card1='40001' card2='10064' />
+</combo>
+<combo> <!-- Hank Hill + Baked Evil Monkey-->
+<card_id>45136</card_id>
+<cards card1='40027' card2='10064' />
+</combo>
+<combo> <!-- Hank + Olive Addict-->
+<card_id>45136</card_id>
+<cards card1='40001' card2='10065' />
+</combo>
+<combo> <!-- Hank Hill + Olive Addict-->
+<card_id>45136</card_id>
+<cards card1='40027' card2='10065' />
+</combo>
+<combo> <!-- Hank + Chinchilla Addict Wayne-->
+<card_id>45136</card_id>
+<cards card1='40001' card2='30064' />
+</combo>
+<combo> <!-- Hank Hill + Chinchilla Addict Wayne-->
+<card_id>45136</card_id>
+<cards card1='40027' card2='30064' />
+</combo>
+<combo> <!-- Hank + Stems and Seeds-->
+<card_id>45136</card_id>
+<cards card1='40001' card2='40051' />
+</combo>
+<combo> <!-- Hank Hill + Stems and Seeds-->
+<card_id>45136</card_id>
+<cards card1='40027' card2='40051' />
 </combo>
 <combo> <!-- Hank + Cat with Gun-->
 <card_id>45133</card_id>
@@ -24941,14 +26566,6 @@
 <card_id>45047</card_id>
 <cards card1='40027' card2='10019' />
 </combo>
-<combo> <!-- Hank + Shovel-->
-<card_id>45047</card_id>
-<cards card1='40001' card2='10021' />
-</combo>
-<combo> <!-- Hank Hill + Shovel-->
-<card_id>45047</card_id>
-<cards card1='40027' card2='10021' />
-</combo>
 <combo> <!-- Hank + Weapon-->
 <card_id>45047</card_id>
 <cards card1='40001' card2='60003' />
@@ -25352,6 +26969,38 @@
 <combo> <!-- Dale + Bedtime Stories-->
 <card_id>45075</card_id>
 <cards card1='40008' card2='10047' />
+</combo>
+<combo> <!-- Dale + Prescription Weed-->
+<card_id>45040</card_id>
+<cards card1='40008' card2='20051' />
+</combo>
+<combo> <!-- Dale + Leon Petard-->
+<card_id>45040</card_id>
+<cards card1='40008' card2='40052' />
+</combo>
+<combo> <!-- Dale + Hypnotoad-->
+<card_id>45040</card_id>
+<cards card1='40008' card2='50056' />
+</combo>
+<combo> <!-- Dale + Refreshing Crack-->
+<card_id>45040</card_id>
+<cards card1='40008' card2='50057' />
+</combo>
+<combo> <!-- Dale + Baked Evil Monkey-->
+<card_id>45040</card_id>
+<cards card1='40008' card2='10064' />
+</combo>
+<combo> <!-- Dale + Olive Addict-->
+<card_id>45040</card_id>
+<cards card1='40008' card2='10065' />
+</combo>
+<combo> <!-- Dale + Chinchilla Addict Wayne-->
+<card_id>45040</card_id>
+<cards card1='40008' card2='30064' />
+</combo>
+<combo> <!-- Dale + Stems and Seeds-->
+<card_id>45040</card_id>
+<cards card1='40008' card2='40051' />
 </combo>
 <combo> <!-- Dale + Crack-->
 <card_id>45040</card_id>
@@ -26875,6 +28524,118 @@
 <card_id>45041</card_id>
 <cards card1='40041' card2='10035' />
 </combo>
+<combo> <!-- Boomhauer + Baked Evil Monkey-->
+<card_id>45137</card_id>
+<cards card1='40009' card2='10064' />
+</combo>
+<combo> <!-- Boomhauer + Baked Evil Monkey-->
+<card_id>45137</card_id>
+<cards card1='1400002' card2='10064' />
+</combo>
+<combo> <!-- Boomhauer + Olive Addict-->
+<card_id>45137</card_id>
+<cards card1='40009' card2='10065' />
+</combo>
+<combo> <!-- Boomhauer + Olive Addict-->
+<card_id>45137</card_id>
+<cards card1='1400002' card2='10065' />
+</combo>
+<combo> <!-- Boomhauer + Prescription Weed-->
+<card_id>45137</card_id>
+<cards card1='40009' card2='20051' />
+</combo>
+<combo> <!-- Boomhauer + Prescription Weed-->
+<card_id>45137</card_id>
+<cards card1='1400002' card2='20051' />
+</combo>
+<combo> <!-- Boomhauer + Chinchilla Addict Wayne-->
+<card_id>45137</card_id>
+<cards card1='40009' card2='30064' />
+</combo>
+<combo> <!-- Boomhauer + Chinchilla Addict Wayne-->
+<card_id>45137</card_id>
+<cards card1='1400002' card2='30064' />
+</combo>
+<combo> <!-- Boomhauer + Stems and Seeds-->
+<card_id>45137</card_id>
+<cards card1='40009' card2='40051' />
+</combo>
+<combo> <!-- Boomhauer + Stems and Seeds-->
+<card_id>45137</card_id>
+<cards card1='1400002' card2='40051' />
+</combo>
+<combo> <!-- Boomhauer + Leon Petard-->
+<card_id>45137</card_id>
+<cards card1='40009' card2='40052' />
+</combo>
+<combo> <!-- Boomhauer + Leon Petard-->
+<card_id>45137</card_id>
+<cards card1='1400002' card2='40052' />
+</combo>
+<combo> <!-- Boomhauer + Hypnotoad-->
+<card_id>45137</card_id>
+<cards card1='40009' card2='50056' />
+</combo>
+<combo> <!-- Boomhauer + Hypnotoad-->
+<card_id>45137</card_id>
+<cards card1='1400002' card2='50056' />
+</combo>
+<combo> <!-- Boomhauer + Refreshing Crack-->
+<card_id>45137</card_id>
+<cards card1='40009' card2='50057' />
+</combo>
+<combo> <!-- Boomhauer + Refreshing Crack-->
+<card_id>45137</card_id>
+<cards card1='1400002' card2='50057' />
+</combo>
+<combo> <!-- Boomhauer + Toad Licking-->
+<card_id>45137</card_id>
+<cards card1='40009' card2='10063' />
+</combo>
+<combo> <!-- Boomhauer + Toad Licking-->
+<card_id>45137</card_id>
+<cards card1='1400002' card2='10063' />
+</combo>
+<combo> <!-- Boomhauer + Toad Licking-->
+<card_id>45137</card_id>
+<cards card1='40009' card2='10003' />
+</combo>
+<combo> <!-- Boomhauer + Toad Licking-->
+<card_id>45137</card_id>
+<cards card1='1400002' card2='10003' />
+</combo>
+<combo> <!-- Boomhauer + Crack-->
+<card_id>45137</card_id>
+<cards card1='40009' card2='20014' />
+</combo>
+<combo> <!-- Boomhauer + Crack-->
+<card_id>45137</card_id>
+<cards card1='1400002' card2='20014' />
+</combo>
+<combo> <!-- Boomhauer + Painkillers-->
+<card_id>45137</card_id>
+<cards card1='40009' card2='30018' />
+</combo>
+<combo> <!-- Boomhauer + Painkillers-->
+<card_id>45137</card_id>
+<cards card1='1400002' card2='30018' />
+</combo>
+<combo> <!-- Boomhauer + Butterscotch Cookies-->
+<card_id>45137</card_id>
+<cards card1='40009' card2='30037' />
+</combo>
+<combo> <!-- Boomhauer + Butterscotch Cookies-->
+<card_id>45137</card_id>
+<cards card1='1400002' card2='30037' />
+</combo>
+<combo> <!-- Boomhauer + Manitoba Cigarettes-->
+<card_id>45137</card_id>
+<cards card1='40009' card2='40015' />
+</combo>
+<combo> <!-- Boomhauer + Manitoba Cigarettes-->
+<card_id>45137</card_id>
+<cards card1='1400002' card2='40015' />
+</combo>
 <combo> <!-- Boomhauer + Lady Wrestling-->
 <card_id>45131</card_id>
 <cards card1='40009' card2='10033' />
@@ -27715,6 +29476,46 @@
 <card_id>45066</card_id>
 <cards card1='1400002' card2='10035' />
 </combo>
+<combo> <!-- Bobby + Prescription Weed-->
+<card_id>45136</card_id>
+<cards card1='40004' card2='20051' />
+</combo>
+<combo> <!-- Bobby + Leon Petard-->
+<card_id>45136</card_id>
+<cards card1='40004' card2='40052' />
+</combo>
+<combo> <!-- Bobby + Hypnotoad-->
+<card_id>45136</card_id>
+<cards card1='40004' card2='50056' />
+</combo>
+<combo> <!-- Bobby + Refreshing Crack-->
+<card_id>45136</card_id>
+<cards card1='40004' card2='50057' />
+</combo>
+<combo> <!-- Bobby + Toad Licking-->
+<card_id>45136</card_id>
+<cards card1='40004' card2='10063' />
+</combo>
+<combo> <!-- Bobby + Toad Licking-->
+<card_id>45136</card_id>
+<cards card1='40004' card2='10003' />
+</combo>
+<combo> <!-- Bobby + Baked Evil Monkey-->
+<card_id>45136</card_id>
+<cards card1='40004' card2='10064' />
+</combo>
+<combo> <!-- Bobby + Olive Addict-->
+<card_id>45136</card_id>
+<cards card1='40004' card2='10065' />
+</combo>
+<combo> <!-- Bobby + Chinchilla Addict Wayne-->
+<card_id>45136</card_id>
+<cards card1='40004' card2='30064' />
+</combo>
+<combo> <!-- Bobby + Stems and Seeds-->
+<card_id>45136</card_id>
+<cards card1='40004' card2='40051' />
+</combo>
 <combo> <!-- Bobby + Neil Goldman-->
 <card_id>45128</card_id>
 <cards card1='40004' card2='10057' />
@@ -28427,10 +30228,6 @@
 <card_id>45048</card_id>
 <cards card1='40004' card2='10019' />
 </combo>
-<combo> <!-- Bobby + Shovel-->
-<card_id>45048</card_id>
-<cards card1='40004' card2='10021' />
-</combo>
 <combo> <!-- Bobby + Pantry Guns-->
 <card_id>45048</card_id>
 <cards card1='40004' card2='20048' />
@@ -28683,6 +30480,58 @@
 <card_id>45015</card_id>
 <cards card1='40005' card2='20033' />
 </combo>
+<combo> <!-- Luanne + Baked Evil Monkey-->
+<card_id>45033</card_id>
+<cards card1='40005' card2='10064' />
+</combo>
+<combo> <!-- Luanne + Olive Addict-->
+<card_id>45033</card_id>
+<cards card1='40005' card2='10065' />
+</combo>
+<combo> <!-- Luanne + Prescription Weed-->
+<card_id>45033</card_id>
+<cards card1='40005' card2='20051' />
+</combo>
+<combo> <!-- Luanne + Chinchilla Addict Wayne-->
+<card_id>45033</card_id>
+<cards card1='40005' card2='30064' />
+</combo>
+<combo> <!-- Luanne + Stems and Seeds-->
+<card_id>45033</card_id>
+<cards card1='40005' card2='40051' />
+</combo>
+<combo> <!-- Luanne + Leon Petard-->
+<card_id>45033</card_id>
+<cards card1='40005' card2='40052' />
+</combo>
+<combo> <!-- Luanne + Hypnotoad-->
+<card_id>45033</card_id>
+<cards card1='40005' card2='50056' />
+</combo>
+<combo> <!-- Luanne + Refreshing Crack-->
+<card_id>45033</card_id>
+<cards card1='40005' card2='50057' />
+</combo>
+<combo> <!-- Luanne + Toad Licking-->
+<card_id>45033</card_id>
+<cards card1='40005' card2='10063' />
+</combo>
+<combo> <!-- Luanne + Toad Licking-->
+<card_id>45033</card_id>
+<cards card1='40005' card2='10003' />
+</combo>
+<combo> <!-- Luanne + Crack-->
+<card_id>45033</card_id>
+<cards card1='40005' card2='20014' />
+</combo>
+<combo> <!-- Luanne + Butterscotch Cookies-->
+<card_id>45033</card_id>
+<cards card1='40005' card2='30037' />
+</combo>
+<combo> <!-- Luanne + Manitoba Cigarettes-->
+<card_id>45033</card_id>
+<cards card1='40005' card2='40015' />
+</combo>
 <combo> <!-- Luanne + Painkillers-->
 <card_id>45033</card_id>
 <cards card1='40005' card2='30018' />
@@ -28742,6 +30591,50 @@
 <combo> <!-- Luanne + Wireless Audio Transmitter-->
 <card_id>45058</card_id>
 <cards card1='40005' card2='30034' />
+</combo>
+<combo> <!-- Bender + Prescription Weed-->
+<card_id>55142</card_id>
+<cards card1='50001' card2='20051' />
+</combo>
+<combo> <!-- Bender + Leon Petard-->
+<card_id>55142</card_id>
+<cards card1='50001' card2='40052' />
+</combo>
+<combo> <!-- Bender + Hypnotoad-->
+<card_id>55142</card_id>
+<cards card1='50001' card2='50056' />
+</combo>
+<combo> <!-- Bender + Refreshing Crack-->
+<card_id>55142</card_id>
+<cards card1='50001' card2='50057' />
+</combo>
+<combo> <!-- Bender + Toad Licking-->
+<card_id>55142</card_id>
+<cards card1='50001' card2='10063' />
+</combo>
+<combo> <!-- Bender + Toad Licking-->
+<card_id>55142</card_id>
+<cards card1='50001' card2='10003' />
+</combo>
+<combo> <!-- Bender + Baked Evil Monkey-->
+<card_id>55142</card_id>
+<cards card1='50001' card2='10064' />
+</combo>
+<combo> <!-- Bender + Olive Addict-->
+<card_id>55142</card_id>
+<cards card1='50001' card2='10065' />
+</combo>
+<combo> <!-- Bender + Painkillers-->
+<card_id>55142</card_id>
+<cards card1='50001' card2='30018' />
+</combo>
+<combo> <!-- Bender + Chinchilla Addict Wayne-->
+<card_id>55142</card_id>
+<cards card1='50001' card2='30064' />
+</combo>
+<combo> <!-- Bender + Stems and Seeds-->
+<card_id>55142</card_id>
+<cards card1='50001' card2='40051' />
 </combo>
 <combo> <!-- Bender + Unexpected Weapon-->
 <card_id>55138</card_id>
@@ -29490,6 +31383,118 @@
 <combo> <!-- Bender + Wireless Audio Transmitter-->
 <card_id>55055</card_id>
 <cards card1='50001' card2='30034' />
+</combo>
+<combo> <!-- Professor Farnsworth + Baked Evil Monkey-->
+<card_id>55143</card_id>
+<cards card1='50004' card2='10064' />
+</combo>
+<combo> <!-- Professor Farnsworth + Baked Evil Monkey-->
+<card_id>55143</card_id>
+<cards card1='1500003' card2='10064' />
+</combo>
+<combo> <!-- Professor Farnsworth + Olive Addict-->
+<card_id>55143</card_id>
+<cards card1='50004' card2='10065' />
+</combo>
+<combo> <!-- Professor Farnsworth + Olive Addict-->
+<card_id>55143</card_id>
+<cards card1='1500003' card2='10065' />
+</combo>
+<combo> <!-- Professor Farnsworth + Prescription Weed-->
+<card_id>55143</card_id>
+<cards card1='50004' card2='20051' />
+</combo>
+<combo> <!-- Professor Farnsworth + Prescription Weed-->
+<card_id>55143</card_id>
+<cards card1='1500003' card2='20051' />
+</combo>
+<combo> <!-- Professor Farnsworth + Chinchilla Addict Wayne-->
+<card_id>55143</card_id>
+<cards card1='50004' card2='30064' />
+</combo>
+<combo> <!-- Professor Farnsworth + Chinchilla Addict Wayne-->
+<card_id>55143</card_id>
+<cards card1='1500003' card2='30064' />
+</combo>
+<combo> <!-- Professor Farnsworth + Stems and Seeds-->
+<card_id>55143</card_id>
+<cards card1='50004' card2='40051' />
+</combo>
+<combo> <!-- Professor Farnsworth + Stems and Seeds-->
+<card_id>55143</card_id>
+<cards card1='1500003' card2='40051' />
+</combo>
+<combo> <!-- Professor Farnsworth + Leon Petard-->
+<card_id>55143</card_id>
+<cards card1='50004' card2='40052' />
+</combo>
+<combo> <!-- Professor Farnsworth + Leon Petard-->
+<card_id>55143</card_id>
+<cards card1='1500003' card2='40052' />
+</combo>
+<combo> <!-- Professor Farnsworth + Hypnotoad-->
+<card_id>55143</card_id>
+<cards card1='50004' card2='50056' />
+</combo>
+<combo> <!-- Professor Farnsworth + Hypnotoad-->
+<card_id>55143</card_id>
+<cards card1='1500003' card2='50056' />
+</combo>
+<combo> <!-- Professor Farnsworth + Refreshing Crack-->
+<card_id>55143</card_id>
+<cards card1='50004' card2='50057' />
+</combo>
+<combo> <!-- Professor Farnsworth + Refreshing Crack-->
+<card_id>55143</card_id>
+<cards card1='1500003' card2='50057' />
+</combo>
+<combo> <!-- Professor Farnsworth + Toad Licking-->
+<card_id>55143</card_id>
+<cards card1='50004' card2='10063' />
+</combo>
+<combo> <!-- Professor Farnsworth + Toad Licking-->
+<card_id>55143</card_id>
+<cards card1='1500003' card2='10063' />
+</combo>
+<combo> <!-- Professor Farnsworth + Toad Licking-->
+<card_id>55143</card_id>
+<cards card1='50004' card2='10003' />
+</combo>
+<combo> <!-- Professor Farnsworth + Toad Licking-->
+<card_id>55143</card_id>
+<cards card1='1500003' card2='10003' />
+</combo>
+<combo> <!-- Professor Farnsworth + Crack-->
+<card_id>55143</card_id>
+<cards card1='50004' card2='20014' />
+</combo>
+<combo> <!-- Professor Farnsworth + Crack-->
+<card_id>55143</card_id>
+<cards card1='1500003' card2='20014' />
+</combo>
+<combo> <!-- Professor Farnsworth + Painkillers-->
+<card_id>55143</card_id>
+<cards card1='50004' card2='30018' />
+</combo>
+<combo> <!-- Professor Farnsworth + Painkillers-->
+<card_id>55143</card_id>
+<cards card1='1500003' card2='30018' />
+</combo>
+<combo> <!-- Professor Farnsworth + Butterscotch Cookies-->
+<card_id>55143</card_id>
+<cards card1='50004' card2='30037' />
+</combo>
+<combo> <!-- Professor Farnsworth + Butterscotch Cookies-->
+<card_id>55143</card_id>
+<cards card1='1500003' card2='30037' />
+</combo>
+<combo> <!-- Professor Farnsworth + Manitoba Cigarettes-->
+<card_id>55143</card_id>
+<cards card1='50004' card2='40015' />
+</combo>
+<combo> <!-- Professor Farnsworth + Manitoba Cigarettes-->
+<card_id>55143</card_id>
+<cards card1='1500003' card2='40015' />
 </combo>
 <combo> <!-- Professor Farnsworth + No Mercy Dojo-->
 <card_id>55141</card_id>
@@ -30297,14 +32302,6 @@
 <card_id>55042</card_id>
 <cards card1='1500003' card2='10019' />
 </combo>
-<combo> <!-- Professor Farnsworth + Shovel-->
-<card_id>55042</card_id>
-<cards card1='50004' card2='10021' />
-</combo>
-<combo> <!-- Professor Farnsworth + Shovel-->
-<card_id>55042</card_id>
-<cards card1='1500003' card2='10021' />
-</combo>
 <combo> <!-- Professor Farnsworth + Ray Gun-->
 <card_id>55042</card_id>
 <cards card1='50004' card2='50021' />
@@ -30446,6 +32443,118 @@
 <combo> <!-- Professor Farnsworth + Wireless Audio Transmitter-->
 <card_id>55058</card_id>
 <cards card1='1500003' card2='30034' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Baked Evil Monkey-->
+<card_id>55144</card_id>
+<cards card1='50005' card2='10064' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Baked Evil Monkey-->
+<card_id>55144</card_id>
+<cards card1='1500002' card2='10064' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Olive Addict-->
+<card_id>55144</card_id>
+<cards card1='50005' card2='10065' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Olive Addict-->
+<card_id>55144</card_id>
+<cards card1='1500002' card2='10065' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Prescription Weed-->
+<card_id>55144</card_id>
+<cards card1='50005' card2='20051' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Prescription Weed-->
+<card_id>55144</card_id>
+<cards card1='1500002' card2='20051' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Chinchilla Addict Wayne-->
+<card_id>55144</card_id>
+<cards card1='50005' card2='30064' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Chinchilla Addict Wayne-->
+<card_id>55144</card_id>
+<cards card1='1500002' card2='30064' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Stems and Seeds-->
+<card_id>55144</card_id>
+<cards card1='50005' card2='40051' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Stems and Seeds-->
+<card_id>55144</card_id>
+<cards card1='1500002' card2='40051' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Leon Petard-->
+<card_id>55144</card_id>
+<cards card1='50005' card2='40052' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Leon Petard-->
+<card_id>55144</card_id>
+<cards card1='1500002' card2='40052' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Hypnotoad-->
+<card_id>55144</card_id>
+<cards card1='50005' card2='50056' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Hypnotoad-->
+<card_id>55144</card_id>
+<cards card1='1500002' card2='50056' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Refreshing Crack-->
+<card_id>55144</card_id>
+<cards card1='50005' card2='50057' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Refreshing Crack-->
+<card_id>55144</card_id>
+<cards card1='1500002' card2='50057' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Toad Licking-->
+<card_id>55144</card_id>
+<cards card1='50005' card2='10063' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Toad Licking-->
+<card_id>55144</card_id>
+<cards card1='1500002' card2='10063' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Toad Licking-->
+<card_id>55144</card_id>
+<cards card1='50005' card2='10003' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Toad Licking-->
+<card_id>55144</card_id>
+<cards card1='1500002' card2='10003' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Crack-->
+<card_id>55144</card_id>
+<cards card1='50005' card2='20014' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Crack-->
+<card_id>55144</card_id>
+<cards card1='1500002' card2='20014' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Painkillers-->
+<card_id>55144</card_id>
+<cards card1='50005' card2='30018' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Painkillers-->
+<card_id>55144</card_id>
+<cards card1='1500002' card2='30018' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Butterscotch Cookies-->
+<card_id>55144</card_id>
+<cards card1='50005' card2='30037' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Butterscotch Cookies-->
+<card_id>55144</card_id>
+<cards card1='1500002' card2='30037' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Manitoba Cigarettes-->
+<card_id>55144</card_id>
+<cards card1='50005' card2='40015' />
+</combo>
+<combo> <!-- Dr. Zoidberg + Manitoba Cigarettes-->
+<card_id>55144</card_id>
+<cards card1='1500002' card2='40015' />
 </combo>
 <combo> <!-- Dr. Zoidberg + No Mercy Dojo-->
 <card_id>55139</card_id>
@@ -31722,6 +33831,102 @@
 <combo> <!-- Dr. Zoidberg + Wireless Audio Transmitter-->
 <card_id>55054</card_id>
 <cards card1='1500002' card2='30034' />
+</combo>
+<combo> <!-- Leela + Baked Evil Monkey-->
+<card_id>55145</card_id>
+<cards card1='50003' card2='10064' />
+</combo>
+<combo> <!-- Leela + Baked Evil Monkey-->
+<card_id>55145</card_id>
+<cards card1='1500001' card2='10064' />
+</combo>
+<combo> <!-- Leela + Olive Addict-->
+<card_id>55145</card_id>
+<cards card1='50003' card2='10065' />
+</combo>
+<combo> <!-- Leela + Olive Addict-->
+<card_id>55145</card_id>
+<cards card1='1500001' card2='10065' />
+</combo>
+<combo> <!-- Leela + Prescription Weed-->
+<card_id>55145</card_id>
+<cards card1='50003' card2='20051' />
+</combo>
+<combo> <!-- Leela + Prescription Weed-->
+<card_id>55145</card_id>
+<cards card1='1500001' card2='20051' />
+</combo>
+<combo> <!-- Leela + Chinchilla Addict Wayne-->
+<card_id>55145</card_id>
+<cards card1='50003' card2='30064' />
+</combo>
+<combo> <!-- Leela + Chinchilla Addict Wayne-->
+<card_id>55145</card_id>
+<cards card1='1500001' card2='30064' />
+</combo>
+<combo> <!-- Leela + Stems and Seeds-->
+<card_id>55145</card_id>
+<cards card1='50003' card2='40051' />
+</combo>
+<combo> <!-- Leela + Stems and Seeds-->
+<card_id>55145</card_id>
+<cards card1='1500001' card2='40051' />
+</combo>
+<combo> <!-- Leela + Leon Petard-->
+<card_id>55145</card_id>
+<cards card1='50003' card2='40052' />
+</combo>
+<combo> <!-- Leela + Leon Petard-->
+<card_id>55145</card_id>
+<cards card1='1500001' card2='40052' />
+</combo>
+<combo> <!-- Leela + Hypnotoad-->
+<card_id>55145</card_id>
+<cards card1='50003' card2='50056' />
+</combo>
+<combo> <!-- Leela + Hypnotoad-->
+<card_id>55145</card_id>
+<cards card1='1500001' card2='50056' />
+</combo>
+<combo> <!-- Leela + Refreshing Crack-->
+<card_id>55145</card_id>
+<cards card1='50003' card2='50057' />
+</combo>
+<combo> <!-- Leela + Refreshing Crack-->
+<card_id>55145</card_id>
+<cards card1='1500001' card2='50057' />
+</combo>
+<combo> <!-- Leela + Toad Licking-->
+<card_id>55145</card_id>
+<cards card1='50003' card2='10063' />
+</combo>
+<combo> <!-- Leela + Toad Licking-->
+<card_id>55145</card_id>
+<cards card1='1500001' card2='10063' />
+</combo>
+<combo> <!-- Leela + Toad Licking-->
+<card_id>55145</card_id>
+<cards card1='50003' card2='10003' />
+</combo>
+<combo> <!-- Leela + Toad Licking-->
+<card_id>55145</card_id>
+<cards card1='1500001' card2='10003' />
+</combo>
+<combo> <!-- Leela + Butterscotch Cookies-->
+<card_id>55145</card_id>
+<cards card1='50003' card2='30037' />
+</combo>
+<combo> <!-- Leela + Butterscotch Cookies-->
+<card_id>55145</card_id>
+<cards card1='1500001' card2='30037' />
+</combo>
+<combo> <!-- Leela + Manitoba Cigarettes-->
+<card_id>55145</card_id>
+<cards card1='50003' card2='40015' />
+</combo>
+<combo> <!-- Leela + Manitoba Cigarettes-->
+<card_id>55145</card_id>
+<cards card1='1500001' card2='40015' />
 </combo>
 <combo> <!-- Leela + Flag Football-->
 <card_id>55133</card_id>
@@ -33075,14 +35280,6 @@
 <card_id>55001</card_id>
 <cards card1='1500001' card2='10019' />
 </combo>
-<combo> <!-- Leela + Shovel-->
-<card_id>55001</card_id>
-<cards card1='50003' card2='10021' />
-</combo>
-<combo> <!-- Leela + Shovel-->
-<card_id>55001</card_id>
-<cards card1='1500001' card2='10021' />
-</combo>
 <combo> <!-- Leela + Pantry Guns-->
 <card_id>55001</card_id>
 <cards card1='50003' card2='20048' />
@@ -34026,6 +36223,86 @@
 <combo> <!-- Dr. Amy Wong + Welcome Mojitos-->
 <card_id>55061</card_id>
 <cards card1='50038' card2='30045' />
+</combo>
+<combo> <!-- Amy + Prescription Weed-->
+<card_id>55033</card_id>
+<cards card1='50019' card2='20051' />
+</combo>
+<combo> <!-- Dr. Amy Wong + Prescription Weed-->
+<card_id>55033</card_id>
+<cards card1='50038' card2='20051' />
+</combo>
+<combo> <!-- Amy + Leon Petard-->
+<card_id>55033</card_id>
+<cards card1='50019' card2='40052' />
+</combo>
+<combo> <!-- Dr. Amy Wong + Leon Petard-->
+<card_id>55033</card_id>
+<cards card1='50038' card2='40052' />
+</combo>
+<combo> <!-- Amy + Hypnotoad-->
+<card_id>55033</card_id>
+<cards card1='50019' card2='50056' />
+</combo>
+<combo> <!-- Dr. Amy Wong + Hypnotoad-->
+<card_id>55033</card_id>
+<cards card1='50038' card2='50056' />
+</combo>
+<combo> <!-- Amy + Refreshing Crack-->
+<card_id>55033</card_id>
+<cards card1='50019' card2='50057' />
+</combo>
+<combo> <!-- Dr. Amy Wong + Refreshing Crack-->
+<card_id>55033</card_id>
+<cards card1='50038' card2='50057' />
+</combo>
+<combo> <!-- Amy + Toad Licking-->
+<card_id>55033</card_id>
+<cards card1='50019' card2='10063' />
+</combo>
+<combo> <!-- Dr. Amy Wong + Toad Licking-->
+<card_id>55033</card_id>
+<cards card1='50038' card2='10063' />
+</combo>
+<combo> <!-- Amy + Toad Licking-->
+<card_id>55033</card_id>
+<cards card1='50019' card2='10003' />
+</combo>
+<combo> <!-- Dr. Amy Wong + Toad Licking-->
+<card_id>55033</card_id>
+<cards card1='50038' card2='10003' />
+</combo>
+<combo> <!-- Amy + Baked Evil Monkey-->
+<card_id>55033</card_id>
+<cards card1='50019' card2='10064' />
+</combo>
+<combo> <!-- Dr. Amy Wong + Baked Evil Monkey-->
+<card_id>55033</card_id>
+<cards card1='50038' card2='10064' />
+</combo>
+<combo> <!-- Amy + Olive Addict-->
+<card_id>55033</card_id>
+<cards card1='50019' card2='10065' />
+</combo>
+<combo> <!-- Dr. Amy Wong + Olive Addict-->
+<card_id>55033</card_id>
+<cards card1='50038' card2='10065' />
+</combo>
+<combo> <!-- Amy + Chinchilla Addict Wayne-->
+<card_id>55033</card_id>
+<cards card1='50019' card2='30064' />
+</combo>
+<combo> <!-- Dr. Amy Wong + Chinchilla Addict Wayne-->
+<card_id>55033</card_id>
+<cards card1='50038' card2='30064' />
+</combo>
+<combo> <!-- Amy + Stems and Seeds-->
+<card_id>55033</card_id>
+<cards card1='50019' card2='40051' />
+</combo>
+<combo> <!-- Dr. Amy Wong + Stems and Seeds-->
+<card_id>55033</card_id>
+<cards card1='50038' card2='40051' />
 </combo>
 <combo> <!-- Amy + Crack-->
 <card_id>55033</card_id>
@@ -35677,6 +37954,54 @@
 <card_id>55003</card_id>
 <cards card1='50028' card2='50010' />
 </combo>
+<combo> <!-- Fry + Toad Licking-->
+<card_id>55007</card_id>
+<cards card1='50002' card2='10063' />
+</combo>
+<combo> <!-- Philip J. Fry + Toad Licking-->
+<card_id>55007</card_id>
+<cards card1='50028' card2='10063' />
+</combo>
+<combo> <!-- Fry + Toad Licking-->
+<card_id>55007</card_id>
+<cards card1='50002' card2='10003' />
+</combo>
+<combo> <!-- Philip J. Fry + Toad Licking-->
+<card_id>55007</card_id>
+<cards card1='50028' card2='10003' />
+</combo>
+<combo> <!-- Fry + Baked Evil Monkey-->
+<card_id>55007</card_id>
+<cards card1='50002' card2='10064' />
+</combo>
+<combo> <!-- Philip J. Fry + Baked Evil Monkey-->
+<card_id>55007</card_id>
+<cards card1='50028' card2='10064' />
+</combo>
+<combo> <!-- Fry + Olive Addict-->
+<card_id>55007</card_id>
+<cards card1='50002' card2='10065' />
+</combo>
+<combo> <!-- Philip J. Fry + Olive Addict-->
+<card_id>55007</card_id>
+<cards card1='50028' card2='10065' />
+</combo>
+<combo> <!-- Fry + Chinchilla Addict Wayne-->
+<card_id>55007</card_id>
+<cards card1='50002' card2='30064' />
+</combo>
+<combo> <!-- Philip J. Fry + Chinchilla Addict Wayne-->
+<card_id>55007</card_id>
+<cards card1='50028' card2='30064' />
+</combo>
+<combo> <!-- Fry + Stems and Seeds-->
+<card_id>55007</card_id>
+<cards card1='50002' card2='40051' />
+</combo>
+<combo> <!-- Philip J. Fry + Stems and Seeds-->
+<card_id>55007</card_id>
+<cards card1='50028' card2='40051' />
+</combo>
 <combo> <!-- Fry + Crack-->
 <card_id>55007</card_id>
 <cards card1='50002' card2='20014' />
@@ -36126,10 +38451,6 @@
 <combo> <!-- Hermes + Paintball with Guns-->
 <card_id>55044</card_id>
 <cards card1='50006' card2='10019' />
-</combo>
-<combo> <!-- Hermes + Shovel-->
-<card_id>55044</card_id>
-<cards card1='50006' card2='10021' />
 </combo>
 <combo> <!-- Hermes + Weapon-->
 <card_id>55044</card_id>

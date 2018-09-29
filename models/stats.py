@@ -1,17 +1,13 @@
 from texttable import Texttable
 
 import constants
-
 from configuration import Configuration
-from controllers import GameApi
-from models.card_basic import CardBasic
 from models.card_set import CardSet
 
 
 class Stats:
     def __init__(self, name="", deck=None):
         self.configuration = Configuration()
-        self.api = GameApi(self.configuration)
 
         self.name = name
         self.item_count = []
